@@ -1,0 +1,9 @@
+.question_image {
+  text-align: center;
+  position: relative;
+}
+.question_image form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
