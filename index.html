@@ -3,19 +3,15 @@
 <head>
   <title>りょうたまハウス謎</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><!-- jquery -->
-  <script src="./nazo_checker_jquery.js"></script><!-- nazo_checker.js -->
-  <link href="./nazo_checker.css" rel="stylesheet" type="text/css"><!-- nazo_checker.css -->
   <link href="./design.css" rel="stylesheet" type="text/css"><!--  -->
 </head>
 <body>
-  <audio src="./Sounds/correct.mp3" id="play-correct"></audio>
-  <audio src="./Sounds/error.mp3" id="play-error"></audio>
     <div class="nazoform">
-    <form name="Correct" onsubmit="AnswerCheck(this);return false;">
+    <form name="Correct">
         <button type="submit">正解音</button>
     </form>
     </br>
-    <form name="Clear" onsubmit="ErrorSound(this);return false;">
+    <form name="Clear">
         <button type="submit">不正解音</button>
     </form>
     </div>
