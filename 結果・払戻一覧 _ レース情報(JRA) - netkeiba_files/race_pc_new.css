@@ -7064,7 +7064,7 @@ ul.CourseChange_List li a {
 
 .RaceOdds_Menu02.Col3 ul li {
   float: left;
-  width: 100%;
+  width: 33.3%;
 }
 
 /**/
@@ -7178,11 +7178,11 @@ ul.CourseChange_List li a {
 }
 
 .Btn_Group .Col3 li {
-  width: 90%;
+  width: 30%;
 }
 
 .Btn_Group .Col3 .Active {
-  width: 100%;
+  width: 40%;
 }
 
 .Btn_Group .Col1 .Active {
@@ -9449,10 +9449,6 @@ table tr .Odds_Ninki {
 .Tab_ResultSelect ul li {
   display: table;
   border-radius: 3px;
-}
-
-.Tab_ResultSelect ul.Col1 li {
-  width: 100%;
 }
 
 .Tab_ResultSelect ul.Col2 li {
@@ -13198,12 +13194,6 @@ ul.Btn_List_01 li a {
   border-radius: 3px;
   -webkit-box-shadow: 0 2px 2px rgba(146, 151, 165, 0.5);
   box-shadow: 0 2px 2px rgba(146, 151, 165, 0.5);
-}
-
-/*-- 1カラム --*/
-.Col1 li {
-  float: left;
-  width: 100%;
 }
 
 /*-- 2カラム --*/
@@ -18233,9 +18223,7 @@ section.OpinionBox a.SideOpinionBtn span:before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
-  justify-content: space-between;
   margin: 35px 0;
 }
 
