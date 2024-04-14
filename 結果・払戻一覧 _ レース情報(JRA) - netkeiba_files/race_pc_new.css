@@ -9451,6 +9451,10 @@ table tr .Odds_Ninki {
   border-radius: 3px;
 }
 
+.Tab_ResultSelect ul.Col1 li {
+  width: 50%;
+}
+
 .Tab_ResultSelect ul.Col2 li {
   width: 50%;
 }
