@@ -7064,7 +7064,7 @@ ul.CourseChange_List li a {
 
 .RaceOdds_Menu02.Col3 ul li {
   float: left;
-  width: 33.3%;
+  width: 100%;
 }
 
 /**/
@@ -7178,11 +7178,11 @@ ul.CourseChange_List li a {
 }
 
 .Btn_Group .Col3 li {
-  width: 30%;
+  width: 90%;
 }
 
 .Btn_Group .Col3 .Active {
-  width: 40%;
+  width: 100%;
 }
 
 .Btn_Group .Col1 .Active {
