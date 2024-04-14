@@ -7630,7 +7630,7 @@ ul.CourseChange_List li a {
 .RaceList_Main_Box .RaceList_Item01,
 .RaceList_Main_Box .RaceList_Item02 {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: left;
 }
 
 .RaceList_Main_Box .RaceList_Item02 {
