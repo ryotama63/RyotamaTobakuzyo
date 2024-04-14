@@ -13200,6 +13200,12 @@ ul.Btn_List_01 li a {
   box-shadow: 0 2px 2px rgba(146, 151, 165, 0.5);
 }
 
+/*-- 1カラム --*/
+.Col1 li {
+  float: left;
+  width: 100%;
+}
+
 /*-- 2カラム --*/
 .Col2 li {
   float: left;
