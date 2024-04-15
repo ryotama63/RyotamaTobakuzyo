@@ -854,7 +854,7 @@ fieldset {
 }
 
 /*MQ タブレット-PC*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 386px) {
   .Inner_Box {
     margin: 0;
     padding: 0 0 8px 0;
@@ -1145,8 +1145,8 @@ img.Thumb_Img01 {
   color: #e72b95 !important;
 }
 
-/*--MQ タブレット-PC 768px*/
-@media only screen and (min-width: 768px) {
+/*--MQ タブレット-PC 386px*/
+@media only screen and (min-width: 386px) {
   .Back_Link ul {
     margin: 8px 0;
   }
@@ -1853,7 +1853,7 @@ p.Confirm_Txt {
 }
 
 /*MQ タブレット*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 386px) and (max-width: 991px) {
   .Common_Select label {
     font-size: .9em;
   }
@@ -4743,7 +4743,7 @@ ul.Payment_List li img {
 }
 
 /*MQ タブレット*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 386px) and (max-width: 991px) {
   .Goto_Premium .Main_Copy_Box a.Icon_Link {
     display: block;
     margin: 0 !important;
@@ -6782,7 +6782,7 @@ ul.CourseChange_List li a {
   margin: 0 auto 9px;
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
+@media only screen and (max-width: 1023px) and (min-width: 386px) {
   .RaceUseful_Menu {
     width: 750px;
     margin: 0 auto;
@@ -15960,7 +15960,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
   text-align: center;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 386px) {
   .Side_Column .nk_AdvBox_pc {
     max-width: 300px;
     margin: auto;
@@ -18737,7 +18737,7 @@ ul.RaceHeadBtnArea li .disable_ipat:hover {
 
 body .Wrap {
   overflow: visible !important;
-  min-width: 1000px;
+  min-width: 386px;
 }
 
 .GreenBackground {
