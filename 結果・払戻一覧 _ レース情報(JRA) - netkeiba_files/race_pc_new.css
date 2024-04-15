@@ -3088,7 +3088,7 @@ ul.ui-grid-a {
 
 /*----いいね！(白)--*/
 .Icon_Inline_S .Icon_Like_03 {
-  background-position: -96px -375px;
+  background-position: -96px -360px;
 }
 
 /*----コメントする*/
@@ -6072,7 +6072,7 @@ ul.RaceMenuSub li span.NewIcon:after {
 }
 
 .Maru_10 {
-  background-position: 0px -375px !important;
+  background-position: 0px -360px !important;
 }
 
 .Maru_11 {
@@ -23842,7 +23842,7 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 #All_Result_Table .Num + .Horse_Info {
-  min-width: 140px;
+  min-width: 170px;
   max-width: 260px;
   white-space: unset;
 }
@@ -25546,7 +25546,7 @@ ipat_history.html
 .Total02 tr th {
   padding: 8px 16px;
   background: #e2e0da;
-  width: 375px;
+  width: 360px;
 }
 
 .Total02 td {
@@ -31167,7 +31167,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 }
 
 .RaceSpecialArea .CourseImageArea .Course_Image {
-  width: 375px;
+  width: 360px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
