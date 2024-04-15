@@ -4730,7 +4730,7 @@ ul.Payment_List li img {
 }
 
 /*MQ デフォルト*/
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 386px) {
   .Goto_Premium .Main_Copy_Box a.Icon_Link {
     display: block;
     margin: 0 !important;
