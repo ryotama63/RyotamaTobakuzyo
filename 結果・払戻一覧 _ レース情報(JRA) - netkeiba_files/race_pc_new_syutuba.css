@@ -832,7 +832,7 @@ fieldset {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 336px) {
+@media only screen and (min-width: 386px) {
   #PageTop {
     display: block !important;
     width: 920px;
@@ -854,7 +854,7 @@ fieldset {
 }
 
 /*MQ タブレット-PC*/
-@media only screen and (min-width: 336px) {
+@media only screen and (min-width: 386px) {
   .Inner_Box {
     margin: 0;
     padding: 0 0 8px 0;
@@ -1145,8 +1145,8 @@ img.Thumb_Img01 {
   color: #e72b95 !important;
 }
 
-/*--MQ タブレット-PC 336px*/
-@media only screen and (min-width: 336px) {
+/*--MQ タブレット-PC 386px*/
+@media only screen and (min-width: 386px) {
   .Back_Link ul {
     margin: 8px 0;
   }
@@ -1843,7 +1843,7 @@ p.Confirm_Txt {
 }
 
 /*MQ デフォルト*/
-@media only screen and (min-width: 336px) {
+@media only screen and (min-width: 386px) {
   .Common_Select label {
     font-size: .9em;
   }
@@ -1853,7 +1853,7 @@ p.Confirm_Txt {
 }
 
 /*MQ タブレット*/
-@media only screen and (min-width: 336px) and (max-width: 991px) {
+@media only screen and (min-width: 386px) and (max-width: 991px) {
   .Common_Select label {
     font-size: .9em;
   }
@@ -4730,7 +4730,7 @@ ul.Payment_List li img {
 }
 
 /*MQ デフォルト*/
-@media only screen and (min-width: 336px) {
+@media only screen and (min-width: 386px) {
   .Goto_Premium .Main_Copy_Box a.Icon_Link {
     display: block;
     margin: 0 !important;
@@ -4743,7 +4743,7 @@ ul.Payment_List li img {
 }
 
 /*MQ タブレット*/
-@media only screen and (min-width: 336px) and (max-width: 991px) {
+@media only screen and (min-width: 386px) and (max-width: 991px) {
   .Goto_Premium .Main_Copy_Box a.Icon_Link {
     display: block;
     margin: 0 !important;
@@ -6782,14 +6782,14 @@ ul.CourseChange_List li a {
   margin: 0 auto 9px;
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 336px) {
+@media only screen and (max-width: 1023px) and (min-width: 386px) {
   .RaceUseful_Menu {
     width: 750px;
     margin: 0 auto;
   }
 }
 
-@media only screen and (min-width: 336px) {
+@media only screen and (min-width: 386px) {
   .RaceUseful_Menu {
     width: 920px;
     margin: 0 auto;
@@ -7908,7 +7908,7 @@ ul.CourseChange_List li a {
   display: none;
 }
 
-@media only screen and (min-width: 336px) {
+@media only screen and (min-width: 386px) {
   .Stable_Comment [class*="Waku"] {
     width: 20px;
   }
@@ -8369,7 +8369,7 @@ body#Netkeiba_Race_Result .Shutuba_Modal.FreeMem > .Btn {
   width: 90%;
 }
 
-@media only screen and (min-width: 336px) {
+@media only screen and (min-width: 386px) {
   .Shutuba_Modal_RaceList {
     width: 920px;
     margin: 0 auto;
@@ -12729,7 +12729,7 @@ img {
 
 /* 6. LAYOUT */
 .Contents {
-  width: 336px;
+  width: 386px;
   margin: 22px auto 6px auto;
 }
 
@@ -12944,7 +12944,7 @@ img {
 .RaceList_Date {
   background-color: #f5f4f1;
   padding: 7px 9px;
-  max-width: 336px;
+  max-width: 386px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13672,7 +13672,7 @@ ul.Btn_List_01.Col3 li:nth-child(3n) a {
 }
 
 .W960 {
-  width: 336px !important;
+  width: 386px !important;
 }
 
 .W1100 {
@@ -13930,11 +13930,11 @@ table td.Waku1, table td.Waku2, table td.Waku3, table td.Waku4, table td.Waku5, 
 
 /*==============================================
 Sticky Element:
-- spec 3/6/2019: width 336px, always center, sticky the same.
+- spec 3/6/2019: width 386px, always center, sticky the same.
 ==============================================*/
 .InputFixedArea_Wrap {
   min-height: 123px;
-  width: 336px;
+  width: 386px;
   margin: 40px auto 0;
   padding-top: 10px;
   overflow: hidden;
@@ -13970,7 +13970,7 @@ Sticky Element:
   background: rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.5);
-  width: 336px;
+  width: 386px;
 }
 
 .InputFixedArea01.Sticky {
@@ -14024,7 +14024,7 @@ Sticky Element:
 // RaceHeadline
 ==============================================*/
 .RaceHeadlineAll {
-  width: 336px;
+  width: 386px;
   margin: 0 auto;
 }
 
@@ -14934,7 +14934,7 @@ table.Bias td.Jockey, table.SpeedIndex_Table td.Jockey {
 }
 
 .YosoGensenListBox {
-  max-width: 336px;
+  max-width: 386px;
   margin: 0 auto;
   background: #fff !important;
   padding: 0;
@@ -15960,7 +15960,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
   text-align: center;
 }
 
-@media only screen and (min-width: 336px) {
+@media only screen and (min-width: 386px) {
   .Side_Column .nk_AdvBox_pc {
     max-width: 300px;
     margin: auto;
@@ -18083,7 +18083,7 @@ section.OpinionBox a.SideOpinionBtn span:before {
 }
 
 .RaceChange_BtnArea .RaceList_Date {
-  width: 336px;
+  width: 386px;
   margin: auto;
   padding-left: 0;
   padding-right: 0;
@@ -18095,13 +18095,13 @@ section.OpinionBox a.SideOpinionBtn span:before {
 }
 
 .RaceColumn01 .RaceColumnWrap {
-  width: 336px;
+  width: 386px;
   margin: auto;
 }
 
 .RaceColumn01 .RaceMainColumn {
   float: left;
-  width: 336px;
+  width: 386px;
 }
 
 .RaceColumn01 .RaceMainColumn .OreproLink .LinkMore, .RaceColumn01 .RaceMainColumn .OreproLink .Title_More .Title_PrevewBtn a, .Title_More .Title_PrevewBtn .RaceColumn01 .RaceMainColumn .OreproLink a {
@@ -18263,7 +18263,7 @@ section.OpinionBox a.SideOpinionBtn span:before {
 }
 
 .RaceColumn02 {
-  width: 336px;
+  width: 386px;
   margin: auto;
 }
 
@@ -18737,7 +18737,7 @@ ul.RaceHeadBtnArea li .disable_ipat:hover {
 
 body .Wrap {
   overflow: visible !important;
-  min-width: 336px;
+  min-width: 386px;
 }
 
 .GreenBackground {
@@ -19156,7 +19156,7 @@ table.Kyaku_Type_Abroad + p.RaceInfo_Notice01 {
 }
 
 table.Kyaku_Type_Abroad tbody {
-  max-width: 336px;
+  max-width: 386px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19887,7 +19887,7 @@ table.RaceTable01.ShutubaTable .Dredging {
 }
 
 .RaceOddsHorseListWrapper {
-  max-width: 336px;
+  max-width: 386px;
   overflow: hidden;
 }
 
@@ -20732,7 +20732,7 @@ input.BuyCheck_Select {
 }
 
 .UmarenWrapper .RaceOddsArea, .UmarenWrapper .InputFixedArea_Wrap, .UmarenWrapper .RaceOdds_HorseList, .UmarenWrapper .UpdateOdds {
-  max-width: 336px;
+  max-width: 386px;
 }
 
 .UmarenWrapper .RaceOdds_HorseList.Tanfuku.OneTable {
@@ -21047,7 +21047,7 @@ input.BuyCheck_Select {
   box-shadow: 0 1px 1px #cccccc;
 }
 .UmarenWrapper .Race_Infomation_Box {
-  width: 336px;
+  width: 386px;
 }
 
 .InputFixedArea_Wrap .InputBtnBox a.SubmitBtn.Disabled {
@@ -21065,7 +21065,7 @@ input.BuyCheck_Select {
 }
 
 #yoso_odds_no_data {
-  width: 336px;
+  width: 386px;
 }
 
 .OddsUpdataBtn:focus {
@@ -21361,7 +21361,7 @@ input.BuyCheck_Select {
 }
 
 .GraphOdds + .OnOffSwitch_Area {
-  width: 336px;
+  width: 386px;
 }
 
 .GraphOdds + .OnOffSwitch_Area:after, .GraphOdds + .OnOffSwitch_Area:before {
@@ -23194,7 +23194,7 @@ table.YosoKaimeTable01 tbody .Icon_Hit::after {
 }
 
 .MarklistWrap .Race_Infomation_Box {
-  width: 336px;
+  width: 386px;
 }
 
 .Pro_Yoso_Detail.Contents_Box {
@@ -23842,8 +23842,8 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 #All_Result_Table .Num + .Horse_Info {
-  min-width: 200px;
-  max-width: 220px;
+  min-width: 242px;
+  max-width: 262px;
   white-space: unset;
 }
 
@@ -23879,7 +23879,7 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 .ResultPayBackWrapper {
-  width: 336px;
+  width: 386px;
 }
 
 .ResultPayBackRightWrap {
@@ -24964,7 +24964,7 @@ race_oikiri.html
 ==============================================*/
 .OikiriAllWrapper {
   display: table;
-  min-width: 336px;
+  min-width: 386px;
 }
 
 .OikiriAllWrapper .LinkBtn_03 a {
@@ -27046,7 +27046,7 @@ information.html
 }
 
 .Race_Bbs_Wrap {
-  width: 336px;
+  width: 386px;
   margin: 0 auto;
   position: relative;
   min-height: 453px;
@@ -28014,7 +28014,7 @@ information.html
 }
 
 .Contents > .Table_Container .RaceCommon_Table {
-  min-width: 336px;
+  min-width: 386px;
   font-size: 14px;
 }
 
@@ -32756,7 +32756,7 @@ ul.CustomMenuList02 li .MenuListItem .SortHandle > span.BottomBar {
 .CustomBtnArea.FixedBtnArea {
   position: fixed;
   bottom: 0px;
-  width: 336px;
+  width: 386px;
   background: rgba(255, 255, 255, 0.6);
   padding: 20px 14px;
   z-index: 100;
@@ -33941,7 +33941,7 @@ footer a:hover {
 ■共通指定
 ======================================================= */
 body #page {
-  min-width: 336px;
+  min-width: 386px;
 }
 
 /*----- .スマホ版リンク p.sp_nk_btn -----*/
@@ -33956,7 +33956,7 @@ p.sp_nk_btn {
 ==============================================*/
 footer {
   padding-top: 60px;
-  min-width: 336px;
+  min-width: 386px;
 }
 
 /* netkeibaフッター */
@@ -33982,7 +33982,7 @@ footer .FootWrap:after {
 }
 
 footer .BtnPagetop {
-  width: 336px;
+  width: 386px;
   margin: auto;
   position: relative;
 }
@@ -34015,7 +34015,7 @@ footer .BtnPagetop a:after {
 }
 
 footer dl.FootSiteTitle {
-  width: 336px;
+  width: 386px;
 /*  padding: 32px 0;*/
   margin: auto;
 }
@@ -34043,7 +34043,7 @@ dl.FootSiteTitle dd p strong {
 
 footer .FootWrap {
   display: table;
-  width: 336px;
+  width: 386px;
   margin: auto;
   position: relative;
 }
@@ -35334,5 +35334,4 @@ body.page_race_special em.Subtitle::before {
 .Past10year .Payback > table th.Tan3 {
 	background: #e4813e;
 }
-
 
