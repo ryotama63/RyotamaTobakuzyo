@@ -23842,7 +23842,7 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 #All_Result_Table .Num + .Horse_Info {
-  min-width: 200px;
+  min-width: 160px;
   max-width: 220px;
   white-space: unset;
 }
@@ -35334,5 +35334,4 @@ body.page_race_special em.Subtitle::before {
 .Past10year .Payback > table th.Tan3 {
 	background: #e4813e;
 }
-
 
