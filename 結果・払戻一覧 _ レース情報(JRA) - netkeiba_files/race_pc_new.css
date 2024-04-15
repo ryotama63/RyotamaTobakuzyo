@@ -23842,8 +23842,8 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 #All_Result_Table .Num + .Horse_Info {
-  min-width: 160px;
-  max-width: 220px;
+  min-width: 140px;
+  max-width: 260px;
   white-space: unset;
 }
 
