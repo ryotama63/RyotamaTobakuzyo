@@ -6789,7 +6789,7 @@ ul.CourseChange_List li a {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 386px) {
   .RaceUseful_Menu {
     width: 920px;
     margin: 0 auto;
@@ -8369,7 +8369,7 @@ body#Netkeiba_Race_Result .Shutuba_Modal.FreeMem > .Btn {
   width: 90%;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 386px) {
   .Shutuba_Modal_RaceList {
     width: 920px;
     margin: 0 auto;
@@ -23879,7 +23879,7 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 .ResultPayBackWrapper {
-  width: 1024px;
+  width: 386px;
 }
 
 .ResultPayBackRightWrap {
