@@ -832,7 +832,7 @@ fieldset {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 386px) {
   #PageTop {
     display: block !important;
     width: 920px;
@@ -1843,7 +1843,7 @@ p.Confirm_Txt {
 }
 
 /*MQ デフォルト*/
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 386px) {
   .Common_Select label {
     font-size: .9em;
   }
@@ -7908,7 +7908,7 @@ ul.CourseChange_List li a {
   display: none;
 }
 
-@media only screen and (min-width: 728px) {
+@media only screen and (min-width: 386px) {
   .Stable_Comment [class*="Waku"] {
     width: 20px;
   }
@@ -28014,7 +28014,7 @@ information.html
 }
 
 .Contents > .Table_Container .RaceCommon_Table {
-  min-width: 1080px;
+  min-width: 386px;
   font-size: 14px;
 }
 
