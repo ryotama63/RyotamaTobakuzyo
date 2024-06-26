@@ -21,8 +21,8 @@
 
 #cboxOverlay {
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
 }
 
 #cboxMiddleLeft, #cboxBottomLeft {
@@ -46,8 +46,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
 }
 
 #cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
@@ -64,8 +64,8 @@
 }
 
 .cboxIframe {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
   display: block;
   border: 0;
   padding: 0;
@@ -158,7 +158,7 @@
   bottom: 4px;
   left: 0;
   text-align: center;
-  width: 100%;
+  width: 100vw;
   color: #949494;
 }
 
@@ -300,7 +300,7 @@
   padding: 0 10px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.64);
-  max-width: calc(100% - 20px);
+  max-width: calc(100vw - 20px);
   overflow-wrap: break-word;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -413,7 +413,7 @@
   display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 100%;
+  width: 100vw;
   border: 1px solid rgba(0, 0, 0, 0.14);
   padding: 10px 13px;
   border-radius: 2px;
@@ -443,7 +443,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+  font-size: 100vw;
   font-weight: normal;
 }
 
@@ -508,7 +508,7 @@ fieldset {
 }
 
 .FileLoader {
-  width: 100%;
+  width: 100vw;
   background: #fff;
   text-align: center;
   padding: 20px 0;
@@ -913,7 +913,7 @@ fieldset {
 /*----未公開とか、検索ヒット無しとかの時に表示する*/
 .Inner_Txt_No_Result {
   padding: 8px;
-  font-size: 100%;
+  font-size: 100vw;
   line-height: 1.3;
   color: #222;
   font-weight: bold;
@@ -1239,7 +1239,7 @@ ul.Icon_Inline_M .Left_Box .Icon {
 /*---- テキスト ---*/
 .Right_Box {
   display: table-cell;
-  width: 100%;
+  width: 100vw;
   vertical-align: top;
 }
 
@@ -1325,7 +1325,7 @@ ul.List_Box li dl.Nice_Box {
   width: 60px;
   background: #c10000;
   background-image: -moz-linear-gradient(top, #fa4747, #c10000);
-  background-image: -o-linear-gradient(top, #fa4747 0%, #c10000 100%);
+  background-image: -o-linear-gradient(top, #fa4747 0%, #c10000 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fa4747), color-stop(0.55, #ea2222), color-stop(1, #c10000));
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fa4747', EndColorStr='#c10000')";
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fa4747), to(#c10000));
@@ -1418,7 +1418,7 @@ ul.List_Box li .Date_02 {
 ==============================================*/
 /*--フキダシ*/
 .Comment_Box {
-  width: 100%;
+  width: 100vw;
   padding: 0 0 0 12px;
 }
 
@@ -1714,7 +1714,7 @@ fieldset.ui-controlgroup {
 
 .Form_Box input.ui-input-text,
 .Form_Box textarea.ui-input-text {
-  width: 100%;
+  width: 100vw;
 }
 
 .Form_Box .Label_Txt {
@@ -1724,7 +1724,7 @@ fieldset.ui-controlgroup {
 
 .Form_Box .Label_Txt,
 .Form_Box .ui-controlgroup-label {
-  width: 100% !important;
+  width: 100vw !important;
   display: block !important;
 }
 
@@ -1733,7 +1733,7 @@ fieldset.ui-controlgroup {
 }
 
 .Form_Box textarea.textarea_01 {
-  width: 100%;
+  width: 100vw;
 }
 
 .Form_Box .Label_Txt {
@@ -1746,7 +1746,7 @@ fieldset.ui-controlgroup {
 }
 
 .Btn_1col .ui-btn {
-  width: 100%;
+  width: 100vw;
   margin: 10px auto 0 auto;
 }
 
@@ -1895,7 +1895,7 @@ p.Confirm_Txt {
 
 .Common_Txt_Form .Txt_Form_Box input,
 .Common_Form .Txt_Form_Box input {
-  width: 100%;
+  width: 100vw;
 }
 
 .Common_Txt_Form .Submit_Btn_Box,
@@ -1916,19 +1916,19 @@ p.Confirm_Txt {
 /*--横並びのテキストフォーム＋ボタン(検索とか)*/
 .Common_Search {
   display: table;
-  width: 100%;
+  width: 100vw;
   margin: 8px 0 0 0;
   padding: 0 8px;
 }
 
 .Common_Search .Txt_Form_Box {
   display: table-cell;
-  width: 100%;
+  width: 100vw;
   padding: 0 8px 0 0;
 }
 
 .Common_Search .Txt_Form_Box input {
-  width: 100%;
+  width: 100vw;
 }
 
 .Common_Search .Submit_Btn_Box {
@@ -1938,7 +1938,7 @@ p.Confirm_Txt {
 /*--コメント投稿フォームとか*/
 /*----テキストエリア共通*/
 .TextArea_Box textarea {
-  width: 100%;
+  width: 100vw;
   background: #fff !important;
 }
 
@@ -1994,8 +1994,8 @@ input[type="submit"]:hover {
   border-right: 1px solid #d7d8d9;
   border-bottom: 1px solid #d7d8d9;
   background-color: #fff;
-  background-image: -moz-linear-gradient(center top, #fff 0%, #f6f6f6 100%);
-  background-image: -o-linear-gradient(top, #fff 0%, #f6f6f6 100%);
+  background-image: -moz-linear-gradient(center top, #fff 0%, #f6f6f6 100vw);
+  background-image: -o-linear-gradient(top, #fff 0%, #f6f6f6 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #f6f6f6));
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#f6f6f6')";
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f6f6f6));
@@ -2036,8 +2036,8 @@ input[type="submit"]:hover {
   top: 0;
   left: 0;
   display: table-cell;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
   margin: 0;
   line-height: 38px;
   text-align: center;
@@ -2245,7 +2245,7 @@ input[type="submit"]:hover {
   text-shadow: 0 1px 0 #fff;
   background: #ededed;
   background-image: -moz-linear-gradient(center top, #f3f3f3, #ededed);
-  background-image: -o-linear-gradient(top, #f3f3f3 0, #ededed 100%);
+  background-image: -o-linear-gradient(top, #f3f3f3 0, #ededed 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f3f3f3), color-stop(1, #ededed));
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#ededed')";
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#ededed));
@@ -2267,7 +2267,7 @@ input[type="submit"]:hover {
 .Common_Form input.jqm-btn-gray,
 .Common_Form button.jqm-btn,
 .Common_Form button.jqm-btn-gray {
-  width: 100%;
+  width: 100vw;
 }
 
 ul.Btn_1col li input.jqm-input-text,
@@ -2278,7 +2278,7 @@ ul.Btn_1col li input.jqm-btn {
 /*--- jquerymobile風テキストフォーム ---*/
 .Common_Form textarea {
   padding: 5px 3px;
-  width: 100%;
+  width: 100vw;
   height: 6em;
   line-height: 1.2;
 }
@@ -4259,7 +4259,7 @@ span.CSS3_Icon_TriangleRight:before {
 
 .Comment_Form_Box textarea.ui-input-text,
 .Comment_Form_Box input.ui-input-text {
-  width: 100%;
+  width: 100vw;
 }
 
 .Comment_Captha_Box {
@@ -4312,7 +4312,7 @@ p.Incentive_Txt {
 
 .Tarekomi_Form_Box textarea.ui-input-text,
 .Tarekomi_Form_Box input.ui-input-text {
-  width: 100%;
+  width: 100vw;
 }
 
 .Tarekomi_Captha_Box {
@@ -4842,13 +4842,13 @@ TOPプレミアム導線ボタン
   -moz-border-radius: 4px;
   border-radius: 4px;
   background: #022396;
-  background-image: -moz-linear-gradient(center top, #5f93ff 0%, #034cca 70%, #0056cd 100%);
-  background-image: -o-linear-gradient(top, #5f93ff 0%, #034cca 70%, #0056cd 100%);
+  background-image: -moz-linear-gradient(center top, #5f93ff 0%, #034cca 70%, #0056cd 100vw);
+  background-image: -o-linear-gradient(top, #5f93ff 0%, #034cca 70%, #0056cd 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5f93ff), color-stop(0.7, #034cca), color-stop(1, #0056cd));
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#2062DA', EndColorStr='#0056cd')";
   background-image: -webkit-gradient(linear, left top, left bottom, from(#5f93ff), color-stop(70%, #034cca), to(#0056cd));
-  background-image: -webkit-linear-gradient(top, #5f93ff 0%, #034cca 70%, #0056cd 100%);
-  background-image: linear-gradient(to bottom, #5f93ff 0%, #034cca 70%, #0056cd 100%);
+  background-image: -webkit-linear-gradient(top, #5f93ff 0%, #034cca 70%, #0056cd 100vw);
+  background-image: linear-gradient(to bottom, #5f93ff 0%, #034cca 70%, #0056cd 100vw);
   /* IE10+, W3C */
   border: 1px solid #022396;
   -moz-box-shadow: 0px 1px 0px #afe0ff inset;
@@ -4884,13 +4884,13 @@ TOPプレミアム導線ボタン
   padding: 0.6em 25px;
   text-align: center;
   background: #fadb4e;
-  background-image: -moz-linear-gradient(center top, #fceda7 0%, #fadb4e 100%);
-  background-image: -o-linear-gradient(top, #fceda7 0%, #fadb4e 100%);
+  background-image: -moz-linear-gradient(center top, #fceda7 0%, #fadb4e 100vw);
+  background-image: -o-linear-gradient(top, #fceda7 0%, #fadb4e 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fceda7), color-stop(1, #fadb4e));
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fceda7', EndColorStr='#fadb4e')";
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fceda7), to(#fadb4e));
-  background-image: -webkit-linear-gradient(top, #fceda7 0%, #fadb4e 100%);
-  background-image: linear-gradient(to bottom, #fceda7 0%, #fadb4e 100%);
+  background-image: -webkit-linear-gradient(top, #fceda7 0%, #fadb4e 100vw);
+  background-image: linear-gradient(to bottom, #fceda7 0%, #fadb4e 100vw);
   /* IE10+, W3C */
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -4905,7 +4905,7 @@ TOPプレミアム導線ボタン
 }
 
 .Common_Txt_Form .Btn {
-  width: 100%;
+  width: 100vw;
   margin: 0;
   cursor: pointer;
 }
@@ -4924,7 +4924,7 @@ TOPプレミアム導線ボタン
   line-height: 1.4;
   display: inline-block;
   padding: 0.4em;
-  width: 100%;
+  width: 100vw;
 }
 
 .Yoso_HonshiBox_01,
@@ -5020,7 +5020,7 @@ TOPプレミアム導線ボタン
   display: table;
   background: #f5f4f1;
   padding: 8px;
-  width: 100%;
+  width: 100vw;
 }
 
 .YosokaResult .ThumbBox,
@@ -5060,7 +5060,7 @@ TOPプレミアム導線ボタン
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 .YosokaResult .ThumbBox.No1 {
@@ -5233,7 +5233,7 @@ TOPプレミアム導線ボタン
   -webkit-box-shadow: 0 1px 4px rgba(146, 151, 165, 0.6);
   box-shadow: 0 1px 4px rgba(146, 151, 165, 0.6);
   display: table;
-  width: 100%;
+  width: 100vw;
 }
 
 .ProYosoMenu ul a .MenuImgBox,
@@ -5300,14 +5300,14 @@ TOPプレミアム導線ボタン
   display: block;
   background: #e5a221;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eeb72d), color-stop(1, #dfa300));
-  background-image: -o-linear-gradient(bottom, #eeb72d 0%, #dfa300 100%);
-  background-image: -moz-linear-gradient(bottom, #eeb72d 0%, #dfa300 100%);
-  background-image: -webkit-linear-gradient(bottom, #eeb72d 0%, #dfa300 100%);
-  background-image: -ms-linear-gradient(bottom, #eeb72d 0%, #dfa300 100%);
+  background-image: -o-linear-gradient(bottom, #eeb72d 0%, #dfa300 100vw);
+  background-image: -moz-linear-gradient(bottom, #eeb72d 0%, #dfa300 100vw);
+  background-image: -webkit-linear-gradient(bottom, #eeb72d 0%, #dfa300 100vw);
+  background-image: -ms-linear-gradient(bottom, #eeb72d 0%, #dfa300 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#eeb72d), to(#dfa300));
-  background-image: -webkit-linear-gradient(top, #eeb72d 0%, #dfa300 100%);
-  background-image: -o-linear-gradient(top, #eeb72d 0%, #dfa300 100%);
-  background-image: linear-gradient(to bottom, #eeb72d 0%, #dfa300 100%);
+  background-image: -webkit-linear-gradient(top, #eeb72d 0%, #dfa300 100vw);
+  background-image: -o-linear-gradient(top, #eeb72d 0%, #dfa300 100vw);
+  background-image: linear-gradient(to bottom, #eeb72d 0%, #dfa300 100vw);
   -webkit-box-shadow: 0 3px 0 #d49215, inset 0 -1px #e7bc55;
   box-shadow: 0 3px 0 #d49215, inset 0 -1px #e7bc55;
   color: #fff;
@@ -5327,7 +5327,7 @@ body[id^="Netkeiba_Race"] .Contents {
   background: #dcdcdc;
   text-align: center;
   padding: 8px;
-  width: 100%;
+  width: 100vw;
 }
 
 .FileLoader02 > div {
@@ -5379,7 +5379,7 @@ body[id^="Netkeiba_Race"] .Contents {
 
 .Premium_Regist_Txt02 {
   line-height: 1.3;
-  font-size: 100%;
+  font-size: 100vw;
   color: #3159B9;
   margin-bottom: 20px;
   text-align: center;
@@ -5412,7 +5412,7 @@ body[id^="Netkeiba_Race"] .Contents {
 
 .Premium_Regist_Box .japanc_campaign_txt {
   color: #ff6f0f;
-  font-size: 100%;
+  font-size: 100vw;
   margin-bottom: 10px;
   line-height: 1.3;
   font-weight: bold;
@@ -6147,7 +6147,7 @@ ul.RaceMenuSub li span.NewIcon:after {
 
 .LinkBtn_04 a {
   display: block;
-  width: 100%;
+  width: 100vw;
   color: #999;
   font-size: 88%;
   font-weight: bold;
@@ -6324,14 +6324,14 @@ ul.RaceMenuSub li span.NewIcon:after {
 .Common_Tab_Type2:after {
   content: "";
   display: block;
-  width: 100%;
+  width: 100vw;
   border-bottom: 2px solid #4150b2;
 }
 
 .Common_Tab_Type1:after {
   content: "";
   display: block;
-  width: 100%;
+  width: 100vw;
   border-bottom: 2px solid #1F5DC3;
 }
 
@@ -6372,13 +6372,13 @@ ul.RaceMenuSub li span.NewIcon:after {
 [class*="Common_Tab_Type"] .Tab_Active {
   color: #fff;
   background: #3178e1;
-  background: -moz-linear-gradient(top, #3178e1 0%, #1f5dc3 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3178e1), color-stop(100%, #1f5dc3));
-  background: -webkit-linear-gradient(top, #3178e1 0%, #1f5dc3 100%);
-  background: -ms-linear-gradient(top, #3178e1 0%, #1f5dc3 100%);
+  background: -moz-linear-gradient(top, #3178e1 0%, #1f5dc3 100vw);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3178e1), color-stop(100vw, #1f5dc3));
+  background: -webkit-linear-gradient(top, #3178e1 0%, #1f5dc3 100vw);
+  background: -ms-linear-gradient(top, #3178e1 0%, #1f5dc3 100vw);
   background: -webkit-gradient(linear, left top, left bottom, from(#3178e1), to(#1f5dc3));
-  background: -o-linear-gradient(top, #3178e1 0%, #1f5dc3 100%);
-  background: linear-gradient(to bottom, #3178e1 0%, #1f5dc3 100%);
+  background: -o-linear-gradient(top, #3178e1 0%, #1f5dc3 100vw);
+  background: linear-gradient(to bottom, #3178e1 0%, #1f5dc3 100vw);
   -webkit-box-shadow: 0 1px 2px rgba(255, 255, 255, 0.5) inset;
   box-shadow: 0 1px 2px rgba(255, 255, 255, 0.5) inset;
 }
@@ -6439,7 +6439,7 @@ main_column
 
 .RaceData_Hide .CourseRecord dl {
   display: table;
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceData_Hide .CourseRecord dl dt,
@@ -6526,13 +6526,13 @@ main_column
 
 .Race_Detail_Info_Btn .Change_Btn {
   background: #3178e1;
-  background: -moz-linear-gradient(top, #3178e1 0%, #1e5bc1 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3178e1), color-stop(100%, #1e5bc1));
-  background: -webkit-linear-gradient(top, #3178e1 0%, #1e5bc1 100%);
-  background: -ms-linear-gradient(top, #3178e1 0%, #1e5bc1 100%);
+  background: -moz-linear-gradient(top, #3178e1 0%, #1e5bc1 100vw);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3178e1), color-stop(100vw, #1e5bc1));
+  background: -webkit-linear-gradient(top, #3178e1 0%, #1e5bc1 100vw);
+  background: -ms-linear-gradient(top, #3178e1 0%, #1e5bc1 100vw);
   background: -webkit-gradient(linear, left top, left bottom, from(#3178e1), to(#1e5bc1));
-  background: -o-linear-gradient(top, #3178e1 0%, #1e5bc1 100%);
-  background: linear-gradient(to bottom, #3178e1 0%, #1e5bc1 100%);
+  background: -o-linear-gradient(top, #3178e1 0%, #1e5bc1 100vw);
+  background: linear-gradient(to bottom, #3178e1 0%, #1e5bc1 100vw);
   border: 1px solid #1c3a9c;
   border-radius: 5px;
   padding: 0 8px;
@@ -6637,13 +6637,13 @@ main_column
 
 .RaceChangeMenu_Group .Change_BgColor {
   background: #3178e1;
-  background: -moz-linear-gradient(top, #1e5bc1 0%, #3178e1 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e5bc1), color-stop(100%, #3178e1));
-  background: -webkit-linear-gradient(top, #1e5bc1 0%, #3178e1 100%);
-  background: -ms-linear-gradient(top, #1e5bc1 0%, #3178e1 100%);
+  background: -moz-linear-gradient(top, #1e5bc1 0%, #3178e1 100vw);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e5bc1), color-stop(100vw, #3178e1));
+  background: -webkit-linear-gradient(top, #1e5bc1 0%, #3178e1 100vw);
+  background: -ms-linear-gradient(top, #1e5bc1 0%, #3178e1 100vw);
   background: -webkit-gradient(linear, left top, left bottom, from(#1e5bc1), to(#3178e1));
-  background: -o-linear-gradient(top, #1e5bc1 0%, #3178e1 100%);
-  background: linear-gradient(to bottom, #1e5bc1 0%, #3178e1 100%);
+  background: -o-linear-gradient(top, #1e5bc1 0%, #3178e1 100vw);
+  background: linear-gradient(to bottom, #1e5bc1 0%, #3178e1 100vw);
   border: 1px solid #1c3a9c;
 }
 
@@ -6699,13 +6699,13 @@ ul.CourseChange_List li a {
   font-size: 83%;
   font-weight: bold;
   background: #3178e1;
-  background: -moz-linear-gradient(top, #fff 0%, #C5C5C5 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #C5C5C5));
-  background: -webkit-linear-gradient(top, #fff 0%, #C5C5C5 100%);
-  background: -ms-linear-gradient(top, #fff 0%, #C5C5C5 100%);
+  background: -moz-linear-gradient(top, #fff 0%, #C5C5C5 100vw);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100vw, #C5C5C5));
+  background: -webkit-linear-gradient(top, #fff 0%, #C5C5C5 100vw);
+  background: -ms-linear-gradient(top, #fff 0%, #C5C5C5 100vw);
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#C5C5C5));
-  background: -o-linear-gradient(top, #fff 0%, #C5C5C5 100%);
-  background: linear-gradient(to bottom, #fff 0%, #C5C5C5 100%);
+  background: -o-linear-gradient(top, #fff 0%, #C5C5C5 100vw);
+  background: linear-gradient(to bottom, #fff 0%, #C5C5C5 100vw);
   border-radius: 3px;
   padding: 0 6px;
   line-height: 25px;
@@ -6768,7 +6768,7 @@ ul.CourseChange_List li a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 120%;
   background: rgba(0, 0, 0, 0.8);
   z-index: 10001;
@@ -6820,13 +6820,13 @@ ul.CourseChange_List li a {
   text-align: center;
   font-weight: bold;
   background: #484b65;
-  background: -moz-linear-gradient(top, #484b65 0%, #32354c 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #484b65), color-stop(100%, #32354c));
-  background: -webkit-linear-gradient(top, #484b65 0%, #32354c 100%);
-  background: -ms-linear-gradient(top, #484b65 0%, #32354c 100%);
+  background: -moz-linear-gradient(top, #484b65 0%, #32354c 100vw);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #484b65), color-stop(100vw, #32354c));
+  background: -webkit-linear-gradient(top, #484b65 0%, #32354c 100vw);
+  background: -ms-linear-gradient(top, #484b65 0%, #32354c 100vw);
   background: -webkit-gradient(linear, left top, left bottom, from(#484b65), to(#32354c));
-  background: -o-linear-gradient(top, #484b65 0%, #32354c 100%);
-  background: linear-gradient(to bottom, #484b65 0%, #32354c 100%);
+  background: -o-linear-gradient(top, #484b65 0%, #32354c 100vw);
+  background: linear-gradient(to bottom, #484b65 0%, #32354c 100vw);
   white-space: nowrap;
   padding: 6px 0;
 }
@@ -6850,7 +6850,7 @@ ul.CourseChange_List li a {
 .RaceInfo_Tab .Tab_Active a:before {
   content: "";
   display: block;
-  width: 100%;
+  width: 100vw;
   height: 3px;
   background: #484b65;
   position: absolute;
@@ -7035,7 +7035,7 @@ ul.CourseChange_List li a {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 100%;
+  width: 100vw;
   font-size: 72%;
   font-weight: bold;
   text-align: center;
@@ -7071,7 +7071,7 @@ ul.CourseChange_List li a {
 .RaceOdds_Menu02 ul a,
 .RaceOdds_Menu03 ul a {
   display: block;
-  width: 100%;
+  width: 100vw;
   font-size: 77%;
   font-weight: bold;
   text-align: center;
@@ -7114,14 +7114,14 @@ ul.CourseChange_List li a {
 .Btn_Group {
   background: #215fc7;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.9, #215FC9), color-stop(1, #1A4D9E));
-  background-image: -o-linear-gradient(bottom, #215FC9 90%, #1A4D9E 100%);
-  background-image: -moz-linear-gradient(bottom, #215FC9 90%, #1A4D9E 100%);
-  background-image: -webkit-linear-gradient(bottom, #215FC9 90%, #1A4D9E 100%);
-  background-image: -ms-linear-gradient(bottom, #215FC9 90%, #1A4D9E 100%);
+  background-image: -o-linear-gradient(bottom, #215FC9 90%, #1A4D9E 100vw);
+  background-image: -moz-linear-gradient(bottom, #215FC9 90%, #1A4D9E 100vw);
+  background-image: -webkit-linear-gradient(bottom, #215FC9 90%, #1A4D9E 100vw);
+  background-image: -ms-linear-gradient(bottom, #215FC9 90%, #1A4D9E 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(90%, #215FC9), to(#1A4D9E));
-  background-image: -webkit-linear-gradient(top, #215FC9 90%, #1A4D9E 100%);
-  background-image: -o-linear-gradient(top, #215FC9 90%, #1A4D9E 100%);
-  background-image: linear-gradient(to bottom, #215FC9 90%, #1A4D9E 100%);
+  background-image: -webkit-linear-gradient(top, #215FC9 90%, #1A4D9E 100vw);
+  background-image: -o-linear-gradient(top, #215FC9 90%, #1A4D9E 100vw);
+  background-image: linear-gradient(to bottom, #215FC9 90%, #1A4D9E 100vw);
 }
 
 .Btn_Group .Inner {
@@ -7240,7 +7240,7 @@ ul.CourseChange_List li a {
 }
 
 .tickercontainer {
-  width: 100%;
+  width: 100vw;
   height: 40px;
   overflow: hidden;
 }
@@ -7298,7 +7298,7 @@ ul.CourseChange_List li a {
 /*.Surf_NewsList {
 	display: none;
 	position: absolute;
-	width: 100%;
+	width: 100vw;
 	padding: 8px;
 	background: #dcdcdc;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
@@ -7310,7 +7310,7 @@ ul.CourseChange_List li a {
 .Surf_NewsList {
   display: none;
   position: relative;
-  width: 100%;
+  width: 100vw;
   padding: 8px 0 0;
   background: #dcdcdc;
   -webkit-box-shadow: none;
@@ -7328,7 +7328,7 @@ ul.CourseChange_List li a {
 
 .Surf_NewsList > ul > li {
   display: table;
-  width: 100%;
+  width: 100vw;
   padding: 8px;
 }
 
@@ -7500,7 +7500,7 @@ ul.CourseChange_List li a {
   border: 10px solid transparent;
   border-top-color: #9cf;
   position: absolute;
-  top: 100%;
+  top: 100vw;
   left: 46%;
   height: 0;
   width: 0;
@@ -7571,13 +7571,13 @@ ul.CourseChange_List li a {
   font-weight: bold;
   text-align: center;
   background: #ff9966;
-  background: -moz-linear-gradient(top, #ff9966 0%, #ff6600 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff9966), color-stop(100%, #ff6600));
-  background: -webkit-linear-gradient(top, #ff9966 0%, #ff6600 100%);
-  background: -ms-linear-gradient(top, #ff9966 0%, #ff6600 100%);
+  background: -moz-linear-gradient(top, #ff9966 0%, #ff6600 100vw);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff9966), color-stop(100vw, #ff6600));
+  background: -webkit-linear-gradient(top, #ff9966 0%, #ff6600 100vw);
+  background: -ms-linear-gradient(top, #ff9966 0%, #ff6600 100vw);
   background: -webkit-gradient(linear, left top, left bottom, from(#ff9966), to(#ff6600));
-  background: -o-linear-gradient(top, #ff9966 0%, #ff6600 100%);
-  background: linear-gradient(to bottom, #ff9966 0%, #ff6600 100%);
+  background: -o-linear-gradient(top, #ff9966 0%, #ff6600 100vw);
+  background: linear-gradient(to bottom, #ff9966 0%, #ff6600 100vw);
   border: 1px solid #f60;
   border-radius: 3px;
   padding: 12px 0;
@@ -7611,7 +7611,7 @@ ul.CourseChange_List li a {
 .RaceTopRaceMenuWrap .RaceList li {
   display: -webkit-box;
   display: -moz-box;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid #eee;
   background: #fff;
 }
@@ -7624,7 +7624,7 @@ ul.CourseChange_List li a {
 
 .RaceList_Main_Box a {
   display: table;
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceList_Main_Box .RaceList_Item01,
@@ -7634,7 +7634,7 @@ ul.CourseChange_List li a {
 }
 
 .RaceList_Main_Box .RaceList_Item02 {
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceList_Main_Box .RaceList_Item01 {
@@ -7823,7 +7823,7 @@ ul.CourseChange_List li a {
 
 .Stable_Time .Training_Place > div {
   display: table;
-  width: 100%;
+  width: 100vw;
 }
 
 .Stable_Time .Training_Place > div > span {
@@ -7959,7 +7959,7 @@ table.Oikiri_Table_Show_All tr:nth-child(n+13) {
 }
 
 .Description_Box.ChokyoTime .ChokyoTime_ViewPoint .Image > img {
-  width: 100%;
+  width: 100vw;
   max-width: 634px;
 }
 
@@ -8202,8 +8202,8 @@ body.Body_RaceSpecial .Race_CategoryMenu ul a > span.NewIcon {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
   padding: 6px 10px 10px 10px;
   z-index: 10002;
   overflow-y: auto;
@@ -8440,7 +8440,7 @@ span.Icon_Shirushi {
 }
 
 .Yoso_HonshiBox_01 .Yoso_Comment_Txt p {
-  font-size: 100%;
+  font-size: 100vw;
   line-height: 1.5;
 }
 
@@ -8525,7 +8525,7 @@ p#Honshi_Txt {
 
 .RegistBtnArea .RegistBtn01 a {
   display: block;
-  width: 100%;
+  width: 100vw;
   font-size: 77.8%;
   background: #fff;
   -webkit-border-radius: 4px;
@@ -8621,8 +8621,8 @@ p#Honshi_Txt {
   font-weight: bold;
   border: 1px solid #d7d8d9;
   background-color: #fff;
-  background-image: -moz-linear-gradient(center top, #fff 0, #f6f6f6 100%);
-  background-image: -o-linear-gradient(top, #fff 0, #f6f6f6 100%);
+  background-image: -moz-linear-gradient(center top, #fff 0, #f6f6f6 100vw);
+  background-image: -o-linear-gradient(top, #fff 0, #f6f6f6 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #f6f6f6));
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#f6f6f6')";
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f6f6f6));
@@ -8685,8 +8685,8 @@ p#Honshi_Txt {
   -o-box-shadow: none;
   -ms-box-shadow: none;
   background-color: #fff;
-  background-image: -moz-linear-gradient(center top, #fff 0, #f6f6f6 100%);
-  background-image: -o-linear-gradient(top, #fff 0, #f6f6f6 100%);
+  background-image: -moz-linear-gradient(center top, #fff 0, #f6f6f6 100vw);
+  background-image: -o-linear-gradient(top, #fff 0, #f6f6f6 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #f6f6f6));
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#f6f6f6')";
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f6f6f6));
@@ -8712,8 +8712,8 @@ p#Honshi_Txt {
   font-weight: bold;
   border: 1px solid #d7d8d9;
   background-color: #fff;
-  background-image: -moz-linear-gradient(center top, #fff 0, #f6f6f6 100%);
-  background-image: -o-linear-gradient(top, #fff 0, #f6f6f6 100%);
+  background-image: -moz-linear-gradient(center top, #fff 0, #f6f6f6 100vw);
+  background-image: -o-linear-gradient(top, #fff 0, #f6f6f6 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #f6f6f6));
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#f6f6f6')";
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f6f6f6));
@@ -8751,8 +8751,8 @@ p#Honshi_Txt {
   font-size: .7em;
   text-align: center;
   background-color: #f1f2f3;
-  background-image: -moz-linear-gradient(top, #f9f9f9 0%, #f9f9f9 40%, #f4f4f4 100%);
-  background-image: -o-linear-gradient(top, #f9f9f9 0%, #f9f9f9 40%, #f4f4f4 100%);
+  background-image: -moz-linear-gradient(top, #f9f9f9 0%, #f9f9f9 40%, #f4f4f4 100vw);
+  background-image: -o-linear-gradient(top, #f9f9f9 0%, #f9f9f9 40%, #f4f4f4 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(0.4, #f9f9f9), color-stop(1, #f4f4f4));
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f9f9f9', EndColorStr='#f4f4f4')";
   -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.4) inset, 1px 0 0 rgba(255, 255, 255, 0.4) inset;
@@ -8866,7 +8866,7 @@ span[class*="hidden_comment_"] span:not([class]) {
   padding: 14px;
   margin-bottom: 18px;
   color: #333;
-  font-size: 100%;
+  font-size: 100vw;
 }
 
 .report_form p,
@@ -8893,7 +8893,7 @@ span[class*="hidden_comment_"] span:not([class]) {
 }
 
 .report_form table {
-  width: 100%;
+  width: 100vw;
 }
 
 .report_form table th {
@@ -9025,14 +9025,14 @@ side_column
 
 .Recommend_App_Box a {
   display: table;
-  width: 100%;
+  width: 100vw;
   background: #fff;
   padding: 8px;
 }
 
 .Recommend_App_Box .LinkTitle {
   display: table-cell;
-  width: 100%;
+  width: 100vw;
   vertical-align: top;
 }
 
@@ -9050,7 +9050,7 @@ side_column
 }
 
 .Recommend_App_Box .LinkTitle h3 {
-  font-size: 100%;
+  font-size: 100vw;
   font-weight: bold;
   color: #000;
   margin-bottom: 3px;
@@ -9164,13 +9164,13 @@ table tr .Odds_Ninki {
 [class*="RaceInfo_Local_Menu"] ul .Tab_Active {
   color: #fff;
   background: #3178e1;
-  background: -moz-linear-gradient(top, #3178e1 0%, #1f5dc3 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3178e1), color-stop(100%, #1f5dc3));
-  background: -webkit-linear-gradient(top, #3178e1 0%, #1f5dc3 100%);
-  background: -ms-linear-gradient(top, #3178e1 0%, #1f5dc3 100%);
+  background: -moz-linear-gradient(top, #3178e1 0%, #1f5dc3 100vw);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3178e1), color-stop(100vw, #1f5dc3));
+  background: -webkit-linear-gradient(top, #3178e1 0%, #1f5dc3 100vw);
+  background: -ms-linear-gradient(top, #3178e1 0%, #1f5dc3 100vw);
   background: -webkit-gradient(linear, left top, left bottom, from(#3178e1), to(#1f5dc3));
-  background: -o-linear-gradient(top, #3178e1 0%, #1f5dc3 100%);
-  background: linear-gradient(to bottom, #3178e1 0%, #1f5dc3 100%);
+  background: -o-linear-gradient(top, #3178e1 0%, #1f5dc3 100vw);
+  background: linear-gradient(to bottom, #3178e1 0%, #1f5dc3 100vw);
   -webkit-box-shadow: 0 1px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(146, 151, 165, 0.5);
   box-shadow: 0 1px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(146, 151, 165, 0.5);
 }
@@ -9252,7 +9252,7 @@ table tr .Odds_Ninki {
 
 .Payout_Detail_Table {
   border-collapse: collapse;
-  width: 100%;
+  width: 100vw;
   background: #fff;
 }
 
@@ -9431,7 +9431,7 @@ table tr .Odds_Ninki {
 .Tab_ResultSelect:after {
   content: "";
   display: block;
-  width: 100%;
+  width: 100vw;
   border-bottom: 2px solid #4150b2;
 }
 
@@ -9577,7 +9577,7 @@ table.ResultRefund tr.Blur td.Horse_Info dl .Horse_Name {
 
 table.ResultRefund tr td.Horse_Info dl .Horse_Info_Detail {
   display: table;
-  width: 100%;
+  width: 100vw;
 }
 
 table.ResultRefund tr td.Horse_Info dl .Horse_Info_Detail span {
@@ -9766,26 +9766,26 @@ ul.RaceMovie_subnavi a {
 
 ul.RaceMovie_subnavi.Col3 li {
   width: 33.33333%;
-  width: -webkit-calc(100% / 3);
-  width: calc(100% / 3);
+  width: -webkit-calc(100vw / 3);
+  width: calc(100vw / 3);
 }
 
 ul.RaceMovie_subnavi.Col2 li {
   width: 50%;
-  width: -webkit-calc(100% / 2);
-  width: calc(100% / 2);
+  width: -webkit-calc(100vw / 2);
+  width: calc(100vw / 2);
 }
 
 ul.RaceMovie_subnavi.Col4 li {
   width: 25%;
-  width: -webkit-calc(100% / 4);
-  width: calc(100% / 4);
+  width: -webkit-calc(100vw / 4);
+  width: calc(100vw / 4);
 }
 
 ul.RaceMovie_subnavi.Col5 li {
   width: 25%;
-  width: -webkit-calc(100% / 5);
-  width: calc(100% / 5);
+  width: -webkit-calc(100vw / 5);
+  width: calc(100vw / 5);
 }
 
 ul.RaceMovie_subnavi .Movnav_Active {
@@ -9797,7 +9797,7 @@ ul.RaceMovie_subnavi .Movnav_Active {
 
 ul.RaceMovie_subnavi .Movnav_Active:after,
 ul.RaceMovie_subnavi .Movnav_Active:before {
-  top: 100%;
+  top: 100vw;
   left: 50%;
   border: solid transparent;
   content: " ";
@@ -9819,7 +9819,7 @@ ul.RaceMovie_subnavi .Movnav_Active:before {
 }
 
 .LinkBox_01 .LinkBox_Item02 {
-  width: 100%;
+  width: 100vw;
 }
 
 ul.List_01.ResuleVideo_List {
@@ -9968,7 +9968,7 @@ table.Corner_Num tr:nth-child(even) {
 }
 
 .RaceResult_Photo > img {
-  width: 100%;
+  width: 100vw;
 }
 
 .MovieTxt_01 {
@@ -10030,7 +10030,7 @@ table.Corner_Num tr:nth-child(even) {
 .PremiumRegistBox .PremiumColumnBtnWrap a {
   display: block;
   background: #c1ab71;
-  width: 100%;
+  width: 100vw;
   color: #fff;
   line-height: 1.2;
   font-size: 83.4%;
@@ -10165,7 +10165,7 @@ table.Corner_Num tr:nth-child(even) {
 
 .slick-slide {
   float: left;
-  height: 100%;
+  height: 100vw;
   min-height: 1px;
 }
 
@@ -10201,7 +10201,7 @@ table.Corner_Num tr:nth-child(even) {
 
 .slick-dots {
   display: block;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   height: 20px;
 }
@@ -10268,7 +10268,7 @@ table.Corner_Num tr:nth-child(even) {
 }
 
 .SlideMovieSample {
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
@@ -10283,7 +10283,7 @@ table.Corner_Num tr:nth-child(even) {
 }
 
 .PremiumRegistBox .MovieSampleImg01 img {
-  max-width: 100%;
+  max-width: 100vw;
 }
 
 .PremiumRegistBox .MovieSampleImg02 {
@@ -10344,7 +10344,7 @@ table.ResultRefund tr.List td.Horse_Info .Detail_Right {
 }
 
 .Review_Photo_Box img {
-  width: 100%;
+  width: 100vw;
 }
 
 .Review_Photo_Box .Caption {
@@ -10530,7 +10530,7 @@ table.ResultRefund tr.List td.Horse_Info .Detail_Right {
 
 .Baken_Flow .Step .Image > img {
   padding: 8px;
-  width: 100%;
+  width: 100vw;
   max-width: 556px;
 }
 
@@ -10544,7 +10544,7 @@ table.ResultRefund tr.List td.Horse_Info .Detail_Right {
   background: #fff;
   border-radius: 3px;
   padding: 8px;
-  width: 100%;
+  width: 100vw;
 }
 
 .Description_Box table.Icon_Guide tr th {
@@ -10652,7 +10652,7 @@ table.ResultRefund tr.List td.Horse_Info .Detail_Right {
 
 .WIN5_RaceListBox {
   display: table;
-  width: 100%;
+  width: 100vw;
   background: #fff;
   border-bottom: 1px solid #ccc;
   border-left: 1px solid #ccc;
@@ -10949,7 +10949,7 @@ table.ResultRefund tr.List td.Horse_Info .Detail_Right {
 
 .Calendar_DayList dl.ThisWeek_RaceList {
   display: table;
-  width: 100%;
+  width: 100vw;
   margin: 0 0 8px;
 }
 
@@ -10977,7 +10977,7 @@ table.ResultRefund tr.List td.Horse_Info .Detail_Right {
 
 .Calendar_DayList dl.ThisWeek_RaceList dt.Day span {
   display: block;
-  font-size: 100%;
+  font-size: 100vw;
   font-weight: normal;
 }
 
@@ -10994,7 +10994,7 @@ table.ResultRefund tr.List td.Horse_Info .Detail_Right {
 }
 
 .Calendar_DayList dl.ThisWeek_RaceList dd ul {
-  width: 100%;
+  width: 100vw;
 }
 
 .Calendar_DayList dl.ThisWeek_RaceList dd li {
@@ -11014,7 +11014,7 @@ table.ResultRefund tr.List td.Horse_Info .Detail_Right {
 .Race_Calendar_List dl.ThisWeek_RaceList dd li a,
 .Race_Calendar_List dl.ThisWeek_RaceList dd .No_Link {
   display: table-cell;
-  width: 100%;
+  width: 100vw;
   height: 3em;
   vertical-align: middle;
   font-weight: bold;
@@ -11284,7 +11284,7 @@ dl.ThisWeek_RaceList dd li .No_Link .JyoName {
 .jockeyarr_right .RaceCourseInfoWrap dl dd ul li:first-child {
   font-size: 88%;
   font-weight: bold;
-  width: 100%;
+  width: 100vw;
 }
 
 .jockeyarr_right .RaceCourseInfoWrap dl dd ul li:nth-child(2) {
@@ -11500,7 +11500,7 @@ table.Schedule tr td.Race_Name {
 .Common_Tab_Type1.Race_Contents_Sub_Menu_Box:after {
   content: "";
   display: block;
-  width: 100%;
+  width: 100vw;
   border-bottom: 2px solid #4150b2;
 }
 
@@ -11540,7 +11540,7 @@ table.Schedule tr td.Race_Name {
 	border: 2px solid #c4c1b9;
 	margin-bottom: 14px;
 	display: table;
-	width: 100%;
+	width: 100vw;
 }
 .YosoGensenListBox .GensenYosoList .Inner {
 	display: table-cell;
@@ -11576,7 +11576,7 @@ table.Schedule tr td.Race_Name {
 	height: 85px;
 }
 .YosoGensenListBox .YosokaImage img {
-	width: 100%;
+	width: 100vw;
 	height: auto;
 	border-radius: 4px;
 	-webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.35);
@@ -11709,7 +11709,7 @@ table.Schedule tr td.Race_Name {
 
 .YosoGensenListBox .YosoDataBox .YosoData .ShirushiBox {
 	position: relative;
-	width: 100%;
+	width: 100vw;
 	overflow: hidden;
 }
 .YosoGensenListBox .YosoDataBox .YosoData .ShirushiBox li {
@@ -11848,7 +11848,7 @@ table.Schedule tr td.Race_Name {
   font-weight: bold;
   outline: none;
   padding: 24px 0 25px;
-  width: 100%;
+  width: 100vw;
   max-width: 195px;
   margin: auto;
   font-family: "メイリオ", Meiryo, Hiragino Sans, Hiragino Kaku Gothic ProN, 'ヒラギノ角ゴ ProN W3', 'ヒラギノ角ゴ Pro W3', Helvetica Neue, Helvetica, sans-serif !important;
@@ -11859,12 +11859,12 @@ table.Schedule tr td.Race_Name {
 .StateBtn.State1 {
   background: #e5a221;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eeb72d), color-stop(1, #dfa300));
-  background-image: -moz-linear-gradient(bottom, #eeb72d 0%, #dfa300 100%);
-  background-image: -webkit-linear-gradient(bottom, #eeb72d 0%, #dfa300 100%);
+  background-image: -moz-linear-gradient(bottom, #eeb72d 0%, #dfa300 100vw);
+  background-image: -webkit-linear-gradient(bottom, #eeb72d 0%, #dfa300 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#eeb72d), to(#dfa300));
-  background-image: -webkit-linear-gradient(top, #eeb72d 0%, #dfa300 100%);
-  background-image: -o-linear-gradient(top, #eeb72d 0%, #dfa300 100%);
-  background-image: linear-gradient(to bottom, #eeb72d 0%, #dfa300 100%);
+  background-image: -webkit-linear-gradient(top, #eeb72d 0%, #dfa300 100vw);
+  background-image: -o-linear-gradient(top, #eeb72d 0%, #dfa300 100vw);
+  background-image: linear-gradient(to bottom, #eeb72d 0%, #dfa300 100vw);
   -webkit-box-shadow: 0 3px 0 #d49215, inset 0 -1px #e7bc55;
   box-shadow: 0 3px 0 #d49215, inset 0 -1px #e7bc55;
   color: #fff;
@@ -11873,12 +11873,12 @@ table.Schedule tr td.Race_Name {
 .StateBtn.State2 {
   background: #dad7ce;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E5E3DC), color-stop(1, #DAD7CE));
-  background-image: -moz-linear-gradient(bottom, #E5E3DC 0%, #DAD7CE 100%);
-  background-image: -webkit-linear-gradient(bottom, #E5E3DC 0%, #DAD7CE 100%);
+  background-image: -moz-linear-gradient(bottom, #E5E3DC 0%, #DAD7CE 100vw);
+  background-image: -webkit-linear-gradient(bottom, #E5E3DC 0%, #DAD7CE 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#E5E3DC), to(#DAD7CE));
-  background-image: -webkit-linear-gradient(top, #E5E3DC 0%, #DAD7CE 100%);
-  background-image: -o-linear-gradient(top, #E5E3DC 0%, #DAD7CE 100%);
-  background-image: linear-gradient(to bottom, #E5E3DC 0%, #DAD7CE 100%);
+  background-image: -webkit-linear-gradient(top, #E5E3DC 0%, #DAD7CE 100vw);
+  background-image: -o-linear-gradient(top, #E5E3DC 0%, #DAD7CE 100vw);
+  background-image: linear-gradient(to bottom, #E5E3DC 0%, #DAD7CE 100vw);
   -webkit-box-shadow: 0 3px 0 #b3afa4, inset 0 -1px #e4e2dc;
   box-shadow: 0 3px 0 #b3afa4, inset 0 -1px #e4e2dc;
   box-shadow: none;
@@ -11961,12 +11961,12 @@ table.Schedule tr td.Race_Name {
   display: block;
   background: #dad7ce;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E5E3DC), color-stop(1, #DAD7CE));
-  background-image: -moz-linear-gradient(bottom, #E5E3DC 0%, #DAD7CE 100%);
-  background-image: -webkit-linear-gradient(bottom, #E5E3DC 0%, #DAD7CE 100%);
+  background-image: -moz-linear-gradient(bottom, #E5E3DC 0%, #DAD7CE 100vw);
+  background-image: -webkit-linear-gradient(bottom, #E5E3DC 0%, #DAD7CE 100vw);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#E5E3DC), to(#DAD7CE));
-  background-image: -webkit-linear-gradient(top, #E5E3DC 0%, #DAD7CE 100%);
-  background-image: -o-linear-gradient(top, #E5E3DC 0%, #DAD7CE 100%);
-  background-image: linear-gradient(to bottom, #E5E3DC 0%, #DAD7CE 100%);
+  background-image: -webkit-linear-gradient(top, #E5E3DC 0%, #DAD7CE 100vw);
+  background-image: -o-linear-gradient(top, #E5E3DC 0%, #DAD7CE 100vw);
+  background-image: linear-gradient(to bottom, #E5E3DC 0%, #DAD7CE 100vw);
   border-radius: 5px 5px 0 0;
   padding: 14px 0 11px;
 }
@@ -12077,7 +12077,7 @@ table.Schedule tr td.Race_Name {
   content: "";
   width: 3px;
   background: #333;
-  height: 100%;
+  height: 100vw;
 }
 
 .Viewpoint_Box .table_container .Shutuba_Table.table01,
@@ -12179,7 +12179,7 @@ table.Schedule tr td.Race_Name {
 }
 
 .Viewpoint_Box .table_container .color_blue {
-  font-size: 100%;
+  font-size: 100vw;
 }
 
 .Viewpoint_Box .table_container .Shutuba_Table.table04 td.Rest > span.Data01 {
@@ -12192,7 +12192,7 @@ table.Schedule tr td.Race_Name {
 }
 
 .Viewpoint_Box .table_container .Shutuba_Table.table08 span.BirthDay {
-  font-size: 100%;
+  font-size: 100vw;
   padding-top: .8em;
 }
 
@@ -12202,7 +12202,7 @@ table.Schedule tr td.Race_Name {
 }
 
 .Viewpoint_Box .table_container .Shutuba_Table.table04 td.Past .Data05 > strong {
-  font-size: 100%;
+  font-size: 100vw;
 }
 
 .Viewpoint_Box .table_container .Shutuba_Table.table04 td.Past .Data01 {
@@ -12211,7 +12211,7 @@ table.Schedule tr td.Race_Name {
 
 .Viewpoint_Box table.Shutuba_Past5_Table tr td.Horse_Info .Horse06 > .Popular {
   display: table-cell;
-  width: 100%;
+  width: 100vw;
   text-align: right;
 }
 
@@ -12240,7 +12240,7 @@ table.Schedule tr td.Race_Name {
 
 @media only screen and (max-width: 320px) {
   .Viewpoint_Box .Img_Area img {
-    width: 100%;
+    width: 100vw;
   }
 }
 
@@ -12436,7 +12436,7 @@ table.Schedule tr td.Race_Name {
 }
 
 .BaroHitArea ul.BaroHitList dl {
-  width: 100%;
+  width: 100vw;
   font-size: 77.3%;
   border: 1px solid #e9b94a;
   background: #fff;
@@ -12690,10 +12690,10 @@ html {
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100vw;
+  -moz-text-size-adjust: 100vw;
+  -ms-text-size-adjust: 100vw;
+  text-size-adjust: 100vw;
 }
 
 /* 5. GLOBAL SETUP */
@@ -12834,8 +12834,8 @@ img {
 }
 
 .tzSelect .selectBox {
-  height: 100%;
-  width: 100%;
+  height: 100vw;
+  width: 100vw;
   line-height: 22px;
   font-size: 16.5px;
   color: #555;
@@ -12950,7 +12950,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceList_Date div {
@@ -13094,7 +13094,7 @@ img {
 }
 
 .RaceKaisaiWrap .Col li {
-  width: calc((100% - (3px * 2)) / 3);
+  width: calc((100vw - (3px * 2)) / 3);
 }
 
 .RaceKaisaiWrap .Col li + li {
@@ -13272,7 +13272,7 @@ ul.Btn_List_01.Col3 li:nth-child(3n) a {
 }
 
 .VideoSampleThum img {
-  width: 100%;
+  width: 100vw;
 }
 
 .VideoSampleThum a {
@@ -13293,7 +13293,7 @@ ul.Btn_List_01.Col3 li:nth-child(3n) a {
   background: url(../img/icon/Movie_SamImage.png);
   width: 51px;
   height: 50px;
-  background-size: 100%;
+  background-size: 100vw;
 }
 
 .text-justify {
@@ -13850,7 +13850,7 @@ table td.Waku1, table td.Waku2, table td.Waku3, table td.Waku4, table td.Waku5, 
   position: absolute;
   bottom: -11px;
   border-bottom: 2px solid #d86b5c;
-  width: 100%;
+  width: 100vw;
   left: 0;
 }
 
@@ -13994,7 +13994,7 @@ Sticky Element:
 }
 
 .Payout_Detail_Table tr td {
-  font-size: 100%;
+  font-size: 100vw;
   text-align: center;
 }
 
@@ -14035,7 +14035,7 @@ Sticky Element:
 }
 
 .RaceHeadline .ListHeadlineWrapper {
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
   position: relative;
   font-size: 14px;
@@ -14244,7 +14244,7 @@ Sticky Element:
   flex-shrink: 0;
 }
 .LiveCommerceText{
-  width: calc(100% - 355px) !important;
+  width: calc(100vw - 355px) !important;
 }
 .LiveCommerceText p.LiveTitle{
   font-size: 89.4737%;
@@ -14256,7 +14256,7 @@ Sticky Element:
 }
 /*Top*/
 .page_race_top .LiveCommerceLink_L_Wrap{
-  width: 100%;
+  width: 100vw;
 }
 /*==============================================
 // Box Premium
@@ -14421,12 +14421,12 @@ Sticky Element:
 .Side_Column .WeatherPanel .WeatherTableWrapper {
   border: 1px solid #d2d1cb;
   display: table;
-  width: 100%;
+  width: 100vw;
   border-collapse: collapse;
 }
 
 .Side_Column .WeatherPanel .WeatherTable {
-  width: 100%;
+  width: 100vw;
 }
 
 .Side_Column .WeatherPanel .WeatherTable td {
@@ -14581,7 +14581,7 @@ Sticky Element:
 ==============================================*/
 table.RaceTable01 {
   border-collapse: collapse;
-  min-width: 100%;
+  min-width: 100vw;
   background: #fff;
   border-right: 1px solid #d9d8ce;
   table-layout: fixed;
@@ -15075,7 +15075,7 @@ table.Bias td.Jockey, table.SpeedIndex_Table td.Jockey {
 }
 
 .Inner_Data_Common .sort_icon {
-  width: 100%;
+  width: 100vw;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -15198,7 +15198,7 @@ span.icon_new_submenu:after {
   position: absolute;
   top: -1px;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 3px;
   background: #2d4ebf;
   border-radius: 2px 2px 0 0;
@@ -15210,7 +15210,7 @@ span.icon_new_submenu:after {
   left: 0;
   bottom: -2px;
   height: 4px;
-  width: 100%;
+  width: 100vw;
   z-index: 1;
   background-color: #FFFFFF;
 }
@@ -15411,7 +15411,7 @@ span.icon_new_submenu:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vw;
 }
 
 .DataTabMenu dl dt {
@@ -15439,7 +15439,7 @@ span.icon_new_submenu:after {
 .DataTabMenu dl dd a:after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid #444444;
   display: none;
   bottom: -1px;
@@ -15886,7 +15886,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
 }
 
 .nk_AdvBox_pc img {
-  max-width: 100%;
+  max-width: 100vw;
   display: block;
   margin: auto;
 }
@@ -16054,7 +16054,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
 .RaceText, .RaceSpecialArea .SpecialMainImage .SpecialMainImageTxt .SpecialMainTxtInner {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
@@ -16223,7 +16223,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
   font-size: 14px;
   display: table;
   vertical-align: middle;
-  width: 100%;
+  width: 100vw;
 }
 
 .PickupRace_Point li p span {
@@ -16407,7 +16407,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   white-space: nowrap;
   padding-left: 3px;
   height: 32px;
@@ -16501,7 +16501,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
   border-radius: 5px;
   padding: 8px 9px;
   display: block;
-  min-height: 100%;
+  min-height: 100vw;
 }
 
 .RaceMostRecentBox li > a:hover {
@@ -16546,7 +16546,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
   display: block;
   background-color: #f5f4f1;
   height: 43px;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   z-index: 0;
   left: 0;
@@ -16711,8 +16711,8 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
 
 .RaceList_Date_Top [class^="Tab"] li a {
   display: block;
-  height: 100%;
-  width: 100%;
+  height: 100vw;
+  width: 100vw;
   line-height: 29px;
   display: block;
 }
@@ -16809,7 +16809,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
   font-weight: normal;
   font-size: 12px;
   display: flex;
-  width: 100%;
+  width: 100vw;
   justify-content: space-between;
   margin-left: 6px;
 }
@@ -16901,7 +16901,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
 }
 
 .PDFModal .Newspaper_PremiumSampleBox h4 {
-  width: 100%;
+  width: 100vw;
   text-align: center;
   color: #444444;
   font-size: 16px;
@@ -16955,7 +16955,7 @@ span.Icon_GradeType:before, span.Icon_GradeType:after {
 
 .PDFModal .PremiumRegistBox img {
   max-width: 750px;
-  width: 100%;
+  width: 100vw;
   border-radius: 50%;
   -webkit-box-shadow: -5px 9px 10px -9px rgba(0, 0, 0, 0.75);
   box-shadow: -5px 9px 10px -9px rgba(0, 0, 0, 0.75);
@@ -17138,7 +17138,7 @@ a.LinkHaraimodoshiichiran:hover {
   width: 32px;
   height: 29px;
   background: url(../img/icon/icon_horse_43_38.png) no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
 }
 
 .HorseBookmark_Box .TitleHeading span, .HorseBookmark_Box .RaceSpecialArea .Main_Column .Title_Sec span, .RaceSpecialArea .Main_Column .HorseBookmark_Box .Title_Sec span {
@@ -17146,7 +17146,7 @@ a.LinkHaraimodoshiichiran:hover {
 }
 
 table.Table_Horse_Bookmark {
-  width: 100%;
+  width: 100vw;
   font-size: inherit;
 }
 
@@ -17207,7 +17207,7 @@ a.LinkIconRaceMovie img {
 
 .RaceLiveFlashBox .RaceLiveFlashTitleBox {
   position: relative;
-  width: 100%;
+  width: 100vw;
   margin-bottom: 7px;
   background: #6e6a63;
 }
@@ -17526,11 +17526,11 @@ a.LinkIconRaceMovie img {
 
 .tickercontainer {
   overflow: hidden;
-  width: 100%;
+  width: 100vw;
 }
 
 .tickercontainer .mask {
-  width: 100%;
+  width: 100vw;
   position: relative;
 }
 
@@ -17701,7 +17701,7 @@ ul#TopTicker01 li {
 
 .Top_RaceDigest {
   padding-bottom: 0;
-  width: 100%;
+  width: 100vw;
   padding-top: 0;
 }
 
@@ -17764,7 +17764,7 @@ ul#TopTicker01 li {
 
 .Top_RaceDigest .RaceDigestInner .Digest_Thumb img {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -17859,7 +17859,7 @@ section.OpinionBox h2 {
 
 section.OpinionBox textarea {
   padding: 10px 10px;
-  width: 100%;
+  width: 100vw;
   height: 7em;
   font-size: 12px;
   line-height: 1.4;
@@ -17869,7 +17869,7 @@ section.OpinionBox textarea {
   -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.196);
   box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.196);
   text-shadow: 0 1px 0 #fff;
-  max-width: 100%;
+  max-width: 100vw;
 }
 
 section.OpinionBox textarea:focus {
@@ -17970,24 +17970,24 @@ section.OpinionBox a.SideOpinionBtn span:before {
 }
 
 .have_dt {
-  width: 100%;
+  width: 100vw;
   padding: 10px 0;
   font-size: 14px;
 }
 
 .pdf_txt {
-  width: 100%;
+  width: 100vw;
 }
 
 .loading_download {
   top: 0;
   background: #000;
   opacity: 0.3;
-  height: 100%;
+  height: 100vw;
   z-index: 99990;
-  height: 100%;
+  height: 100vw;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   left: 0;
 }
 
@@ -18008,7 +18008,7 @@ section.OpinionBox a.SideOpinionBtn span:before {
 
 @-webkit-keyframes load {
   0%,
-  100% {
+  100vw {
     -webkit-box-shadow: 0em -2.6em 0em 0em #ffffff, 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.5), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
     box-shadow: 0em -2.6em 0em 0em #ffffff, 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.5), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
   }
@@ -18044,7 +18044,7 @@ section.OpinionBox a.SideOpinionBtn span:before {
 
 @keyframes load {
   0%,
-  100% {
+  100vw {
     -webkit-box-shadow: 0em -2.6em 0em 0em #ffffff, 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.5), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
     box-shadow: 0em -2.6em 0em 0em #ffffff, 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.5), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
   }
@@ -18162,7 +18162,7 @@ section.OpinionBox a.SideOpinionBtn span:before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 3px;
   background: #2d4ebf;
 }
@@ -18205,7 +18205,7 @@ section.OpinionBox a.SideOpinionBtn span:before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 1px;
   background: #fdfcfb;
 }
@@ -18327,7 +18327,7 @@ td.UpdateOdds {
   0% {
     background-color: #fed5d5;
   }
-  100% {
+  100vw {
     background-color: rgba(254, 213, 213, 0);
   }
 }
@@ -18336,7 +18336,7 @@ td.UpdateOdds {
   0% {
     background-color: #fed5d5;
   }
-  100% {
+  100vw {
     background-color: rgba(254, 213, 213, 0);
   }
 }
@@ -18428,7 +18428,7 @@ table.Race_Common_Table td.Mark_User div.Select_Box {
 }
 
 table.RaceCommon_Table {
-  width: 100%;
+  width: 100vw;
   margin-bottom: 20px;
 }
 
@@ -18580,7 +18580,7 @@ ul.RaceHeadBtnArea li:not(.Active) a:before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 1px;
   background: #faf9f7;
 }
@@ -18634,9 +18634,9 @@ ul.RaceHeadBtnArea li .disable_ipat:hover {
 }
 
 .RaceHeadBtnArea .Popup_Img img {
-  width: 100%;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100vw;
+  max-width: 100vw;
+  max-height: 100vw;
 }
 
 .RaceHeadBtnArea .IpatBtn01 {
@@ -18911,7 +18911,7 @@ table.RaceTable01.ShutubaTable .HorseCheckBtn {
   content: "";
   display: inline-block;
   background: url(../img/icon/refresh_icon.png) no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
   width: 12px;
   height: 13px;
   position: absolute;
@@ -18991,7 +18991,7 @@ table.RaceTable01.ShutubaTable .HorseCheckBtn {
   background: #e2e0da;
   width: 20px;
   height: 20px;
-  border-radius: 100%;
+  border-radius: 100vw;
   -webkit-transition: all 300ms cubic-bezier(1, 0, 0, 1);
   -moz-transition: all 300ms cubic-bezier(1, 0, 0, 1);
   -o-transition: all 300ms cubic-bezier(1, 0, 0, 1);
@@ -19007,7 +19007,7 @@ table.RaceTable01.ShutubaTable .HorseCheckBtn {
 }
 
 .ToggleCheck input[type="checkbox"]:checked + span.CheckLabelTxt:before {
-  left: 100%;
+  left: 100vw;
   margin-left: -24px;
   border-color: #e2e0da;
 }
@@ -19029,7 +19029,7 @@ table.RaceTable01.ShutubaTable .HorseCheckBtn {
   font-weight: bold;
   padding: 15px 0;
   position: relative;
-  width: 100%;
+  width: 100vw;
   margin: 7px 0 7px 0;
   padding: 9px 8px 7px 7px;
 }
@@ -19038,9 +19038,9 @@ table.RaceTable01.ShutubaTable .HorseCheckBtn {
 	width: 17px;
 	height: 14px;
 	background: url(../img/icon/icon_share_pc.png) no-repeat;
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	background-size: 100% auto;
+	-webkit-background-size: 100vw auto;
+	-moz-background-size: 100vw auto;
+	background-size: 100vw auto;
 	background-position: 0 0;
 	vertical-align: middle;
 	position: relative;
@@ -19185,7 +19185,7 @@ table.Kyaku_Type_Abroad tr:nth-child(even) {
 }
 
 table.Kyaku_Type_Abroad tr th {
-  width: 100%;
+  width: 100vw;
   border: none;
   display: block;
 }
@@ -19228,7 +19228,7 @@ table.RaceTable01.ShutubaTable tr.Header .Umaban.sort_common .sort_icon {
 
 table.RaceTable01.ShutubaTable .Inner_Shutuba {
   display: block;
-  width: 100%;
+  width: 100vw;
   height: 32px;
   position: relative;
 }
@@ -19266,7 +19266,7 @@ table.RaceTable01.ShutubaTable .Dredging {
   text-align: center;
   min-width: 22px;
   height: 10px;
-  width: 100%;
+  width: 100vw;
   margin-top: 6px;
   pointer-events: auto;
   line-height: 1.4;
@@ -19477,7 +19477,7 @@ table.RaceTable01.ShutubaTable .Dredging {
 /*RaceOdds_HorseList*/
 .RaceOdds_HorseList_Table {
   border-collapse: collapse;
-  width: 100%;
+  width: 100vw;
   background: #fff;
   position: relative;
   font-weight: bold;
@@ -20231,7 +20231,7 @@ table.RaceTable01.ShutubaTable .Dredging {
 .Selected_Table {
   border-bottom: 1px solid #efefef;
   display: table;
-  width: 100%;
+  width: 100vw;
   padding: 5px 8px;
 }
 
@@ -20245,7 +20245,7 @@ table.RaceTable01.ShutubaTable .Dredging {
 
 #select_kumiawase > table {
   border-collapse: collapse;
-  width: 100%;
+  width: 100vw;
   min-height: 70px;
 }
 
@@ -20259,7 +20259,7 @@ table.RaceTable01.ShutubaTable .Dredging {
 
 #select_kumiawase > table tr th div {
   background: url(../img/Axis_Bg01.png) no-repeat center;
-  background-size: 100% 100%;
+  background-size: 100vw 100vw;
   color: #fff;
   font-size: 13px;
   font-weight: normal;
@@ -20295,7 +20295,7 @@ button.DisabledBtn {
   font-weight: bold;
   padding: 15px 0;
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 
 button.SubmitBtn:focus,
@@ -20491,7 +20491,7 @@ button.SubmitBtn.Type_D {
 
 .RaceOdds_Result_Table02, .RaceOdds_Result_Table03 {
   border-collapse: collapse;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid #E4E4E4;
   background: #fff;
 }
@@ -20608,7 +20608,7 @@ input.BuyCheck_Select {
 
 .RaceOdds_Result_Table03 .RaceOdds_Result_Kumiawase tr th div {
   background: url(../img/Axis_Bg01.png) no-repeat center;
-  background-size: 100% 100%;
+  background-size: 100vw 100vw;
   color: #fff;
   font-size: 13px;
   font-weight: normal;
@@ -20632,7 +20632,7 @@ input.BuyCheck_Select {
 }
 
 .RaceOdds_Result_Table03 .RaceOdds_Result_Kumiawase tr td.Num {
-  width: 100%;
+  width: 100vw;
   word-wrap: break-word;
   font-size: 13px;
   font-weight: bold;
@@ -20967,7 +20967,7 @@ input.BuyCheck_Select {
 }
 
 .UmarenWrapper .Selected_Table {
-  width: 100%;
+  width: 100vw;
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -21102,7 +21102,7 @@ input.BuyCheck_Select {
 .RaceOddsMenu a:after, .Speed_TabMenu a:after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid #444444;
   display: none;
   bottom: -1px;
@@ -21767,7 +21767,7 @@ input.BuyCheck_Select {
   color: #fff;
   text-align: center;
   display: block;
-  width: 100%;
+  width: 100vw;
   padding: 3px 0;
   position: absolute;
   left: 0;
@@ -21816,10 +21816,10 @@ input.BuyCheck_Select {
   display: inline-block;
   background-image: url("../img/icon/icon_key04.png");
   background-repeat: no-repeat;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -ms-background-size: 100% auto;
-  background-size: 100% auto;
+  -webkit-background-size: 100vw auto;
+  -moz-background-size: 100vw auto;
+  -ms-background-size: 100vw auto;
+  background-size: 100vw auto;
   width: 13px;
   height: 13px;
   margin: -3px 0;
@@ -22267,7 +22267,7 @@ input.BuyCheck_Select {
   padding: 10px 10px 20px;
   float: left;
   background: url(../img/pc_yoso_set_bg_01.png) no-repeat 0 0;
-  background-size: 100% 100%;
+  background-size: 100vw 100vw;
 }
 
 .cp_paramet_set .ProYosoMark_Block a:hover {
@@ -22312,7 +22312,7 @@ input.BuyCheck_Select {
 
 table.CP_Setting {
   border-collapse: collapse;
-  width: 100%;
+  width: 100vw;
 }
 
 table.CP_Setting thead tr th {
@@ -22495,7 +22495,7 @@ table.Yoso01_Table thead th a p {
 }
 
 .Horse_Date_Table .Yoso01_Table {
-  width: 100%;
+  width: 100vw;
 }
 
 .Yoso_HonshiBox_01 .Yoso_Comment_Txt {
@@ -22548,7 +22548,7 @@ table.Yoso01_Table thead th a p {
 }
 
 table.Yoso_CP_Max_Table {
-  width: 100%;
+  width: 100vw;
   border-collapse: collapse;
   background: #fff;
   border: 1px solid #fff;
@@ -22679,7 +22679,7 @@ table.Yoso_CP_Max_Table tr td div {
 }
 
 .YosoDeTailList .YosoDeTailItem1 img {
-  width: 100%;
+  width: 100vw;
 }
 
 .YosoDeTailList .YosoDeTailItem1 .YosoDeTailName {
@@ -22699,7 +22699,7 @@ table.Yoso_CP_Max_Table tr td div {
 
 /*-- table.YosoShirushiTable01 --*/
 table.YosoShirushiTable01 {
-  width: 100%;
+  width: 100vw;
   margin-bottom: 10px;
   border-collapse: collapse;
 }
@@ -22755,7 +22755,7 @@ table.YosoShirushiTable01 tbody td span.Waku1 {
 
 /*-- table.YosoKaimeTable01 --*/
 table.YosoKaimeTable01 {
-  width: 100%;
+  width: 100vw;
   border-collapse: collapse;
 }
 
@@ -22909,7 +22909,7 @@ table.YosoKaimeTable01 tbody .Icon_Hit::after {
   background: url(../img/img_hit_stamp.png) no-repeat;
   width: 76px;
   height: 76px;
-  background-size: 100% auto;
+  background-size: 100vw auto;
   right: 6px;
   top: 3px;
 }
@@ -23318,7 +23318,7 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 .win5raceresult2 {
-  width: 100%;
+  width: 100vw;
 }
 
 .win5raceresult2 th {
@@ -23513,7 +23513,7 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 .Win5_PaybackBox > ul li:first-child .WIN5_MainRaceName p {
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
@@ -23694,7 +23694,7 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 .Win5_PaybackBox .WIN5_RaceDataRightBox .Win5_CarryOverWrap {
-  width: calc(100% - 10px);
+  width: calc(100vw - 10px);
   background-color: #c00;
   border-radius: 0;
   text-align: center;
@@ -23712,7 +23712,7 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 .RaceList_Date dl.Win5_Date {
-  max-width: 100%;
+  max-width: 100vw;
 }
 
 .RaceList_Date dl.Win5_Date dd:last-child {
@@ -23758,7 +23758,7 @@ table.Win5_Table:nth-child(n+3) th {
   font-weight: normal !important;
   text-align: center;
   padding: 8px 10px;
-  font-size: 100%;
+  font-size: 100vw;
 }
 
 .RaceColumn02 .Corner_Num tr:nth-child(odd), .RaceColumn02 .Corner_Num tr:nth-child(even) {
@@ -23773,7 +23773,7 @@ table.Win5_Table:nth-child(n+3) th {
 }
 
 .RaceColumn02 .Corner_Num tr td {
-  font-size: 100%;
+  font-size: 100vw;
   line-height: 1.7;
   padding: 5px 10px;
 }
@@ -23981,7 +23981,7 @@ table.Corner_Num tr td span.Corner_Num03 {
 }
 
 .Description_Box_Corner .corner_result img {
-  width: 100%;
+  width: 100vw;
 }
 
 .Description_Box_Corner .corner_result .table_description p {
@@ -24284,7 +24284,7 @@ dl.ThisWeek_RaceList a:hover {
 
 .race_table_01 {
   margin: 0 0 14px;
-  width: 100%;
+  width: 100vw;
 }
 
 .race_table_01 th {
@@ -24352,8 +24352,8 @@ dl.ThisWeek_RaceList a:hover {
 }
 
 .Calendar_Table {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
   table-layout: fixed;
   font-weight: bold;
 }
@@ -24376,7 +24376,7 @@ dl.ThisWeek_RaceList a:hover {
   background: #fff;
   border: 1px solid #d9d8ce;
   vertical-align: top;
-  height: 100%;
+  height: 100vw;
 }
 
 .Calendar_Table .Week td .HaveData {
@@ -24385,7 +24385,7 @@ dl.ThisWeek_RaceList a:hover {
 
 .Calendar_Table .Week td .HaveData:hover {
   background: #f6faf4;
-  height: 100%;
+  height: 100vw;
 }
 
 .Calendar_Table .Week td .HaveData:hover a {
@@ -24393,8 +24393,8 @@ dl.ThisWeek_RaceList a:hover {
 }
 
 .Calendar_Table .Week td a {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
   cursor: pointer;
   background: #f5fff1;
 }
@@ -24466,7 +24466,7 @@ race_review.html
 
 .RaceReviewContainer .Col2 li {
   float: none;
-  width: 100%;
+  width: 100vw;
 }
 
 .Result_Btn_Box_01 ul a {
@@ -24605,7 +24605,7 @@ payback_list.html
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 1px;
   background: #faf9f7;
 }
@@ -24683,7 +24683,7 @@ payback_list.html
 }
 
 .RacePaybackListBody .FullWrap {
-  width: 100%;
+  width: 100vw;
 }
 
 .RacePaybackListBody .FullWrap .Payout_Detail_Table {
@@ -24867,7 +24867,7 @@ payback_list.html
 
 .RacePaylistSummaryList .RaceSummaryITem {
   display: table;
-  width: 100%;
+  width: 100vw;
 }
 
 .RacePaylistSummaryList .RaceSummaryITem a {
@@ -25057,7 +25057,7 @@ race_oikiri.html
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vw;
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -25220,7 +25220,7 @@ race_oikiri.html
 }
 
 #Netkeiba_Race_Oikiri .MovieSampleImg01 img {
-  width: 100%;
+  width: 100vw;
 }
 
 #Netkeiba_Race_Oikiri .hover {
@@ -25286,7 +25286,7 @@ race_oikiri.html
 	background-size: contain;
 }
 .MovieInfoLink .List01 .PhotoThumb_01 img {
-	max-height: 100%;
+	max-height: 100vw;
 	width: auto;
 	height: auto;
 	margin: auto;
@@ -25488,7 +25488,7 @@ ipat_history.html
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 3px;
   background: #2d4ebf;
 }
@@ -25538,7 +25538,7 @@ ipat_history.html
 
 .Total02 {
   font-size: 16px;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   font-weight: bold;
 }
@@ -25625,7 +25625,7 @@ table.TraningMovie a.MovieThum:after {
   background-image: url(../img/icon/Movie_SamImage.png);
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-size: 100% 100%;
+  background-size: 100vw 100vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -25714,7 +25714,7 @@ ul.List_Box li a:hover dl .Link_Title {
 }
 
 .MovieCourseInfoImage01 .MovieSample img {
-  width: 100%;
+  width: 100vw;
   padding: 0 18px;
 }
 
@@ -25828,7 +25828,7 @@ div.miovip-controlpanel .control-selector-osd ul.control-list li {
 .RaceIpat_Dialog .Introduction img {
   display: block;
   margin: 8px auto 0;
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceIpat_Dialog .Txt {
@@ -25870,7 +25870,7 @@ div.miovip-controlpanel .control-selector-osd ul.control-list li {
 }
 
 .RaceIpat_Dialog .Dialog_Btn li .btn, .RaceIpat_Dialog .Dialog_Btn li .submit_btn, .RaceIpat_Dialog .Dialog_Btn li .OikiriTable td.Horse_Info .BtnMore, .OikiriTable td.Horse_Info .RaceIpat_Dialog .Dialog_Btn li .BtnMore, .RaceIpat_Dialog .Dialog_Btn li .report_form button, .report_form .RaceIpat_Dialog .Dialog_Btn li button {
-  width: 100%;
+  width: 100vw;
   padding: 16px 0;
   font-weight: bold;
 }
@@ -25923,7 +25923,7 @@ div.miovip-controlpanel .control-selector-osd ul.control-list li {
 
 .RaceIpat .RaceIpat_Inner .LoginForm_Area {
   display: table;
-  width: 100%;
+  width: 100vw;
   padding: 2px 6px;
 }
 
@@ -25939,7 +25939,7 @@ div.miovip-controlpanel .control-selector-osd ul.control-list li {
 
 .RaceIpat .RaceIpat_Inner .LoginForm_Area input[type="tel"] {
   border: 1px solid #d9d8ce;
-  width: 100%;
+  width: 100vw;
   font-size: 88%;
   border-radius: 3px;
   padding: 8px;
@@ -25997,7 +25997,7 @@ div.miovip-controlpanel .control-selector-osd ul.control-list li {
 
 .RaceIpat .SubmitBtn {
   display: block;
-  width: 100%;
+  width: 100vw;
   color: #fff;
   font-weight: bold;
   padding: 15px 0;
@@ -26083,7 +26083,7 @@ table.Comment_Table_Show_All tr:nth-child(n+5) {
 .Stable_Comment,
 .Stable_Time {
   border-collapse: collapse;
-  width: 100%;
+  width: 100vw;
   background: #fff;
 }
 
@@ -26378,12 +26378,12 @@ information.html
   border-bottom: 2px solid #aeada6;
   display: table;
   border-collapse: collapse;
-  width: 100%;
+  width: 100vw;
 }
 
 .ipat_history_list .Balance_List .Race_Name {
   display: table;
-  width: 100%;
+  width: 100vw;
 }
 
 .ipat_history_list .Balance_List .Race_Name .miKakutei {
@@ -26414,7 +26414,7 @@ information.html
 }
 
 .ipat_history_list .Balance_List table {
-  width: 100%;
+  width: 100vw;
   border-top: 1px solid #d9d8ce;
 }
 
@@ -26561,7 +26561,7 @@ information.html
   color: #444444;
   cursor: pointer;
   font-size: 14px;
-  width: 100%;
+  width: 100vw;
   padding: 9px 0;
   text-align: center;
   display: block;
@@ -26604,7 +26604,7 @@ information.html
 }
 
 .History_Result {
-  width: 100%;
+  width: 100vw;
   margin-top: 18px;
   border: 1px solid #c0bdb5;
 }
@@ -26913,7 +26913,7 @@ information.html
 }
 
 .RaceIpat_Dialog.Confirm .Dialog_Btn li {
-  width: 100%;
+  width: 100vw;
 }
 
 @-webkit-keyframes BtnAnime01 {
@@ -26953,7 +26953,7 @@ information.html
     -webkit-transform: scale(1) rotate(0);
     transform: scale(1) rotate(0);
   }
-  100% {
+  100vw {
     -webkit-transform: scale(1) rotate(0);
     transform: scale(1) rotate(0);
   }
@@ -26996,7 +26996,7 @@ information.html
     -webkit-transform: scale(1) rotate(0);
     transform: scale(1) rotate(0);
   }
-  100% {
+  100vw {
     -webkit-transform: scale(1) rotate(0);
     transform: scale(1) rotate(0);
   }
@@ -27328,7 +27328,7 @@ information.html
   line-height: 1.4;
   resize: vertical;
   padding: 18px 10px;
-  width: 100%;
+  width: 100vw;
   outline: none;
   font-size: 14px;
   color: #444;
@@ -27386,7 +27386,7 @@ information.html
   content: '';
   display: inline-block;
   background: url(../img/icon/edit.png) no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
   width: 18px;
   height: 18px;
   position: absolute;
@@ -27664,7 +27664,7 @@ information.html
 .Nk_UserContents .UserContentsList .user_report_list .border_bottom .comment_edit_area_01 {
   padding: 12px 0;
   display: block;
-  width: 100%;
+  width: 100vw;
   text-align: right;
   background: #f3f3f3;
   border: 1px solid #ececec;
@@ -27829,7 +27829,7 @@ information.html
 
 .report_form table textarea {
   resize: vertical;
-  width: 100%;
+  width: 100vw;
 }
 
 .report_form select {
@@ -28090,7 +28090,7 @@ information.html
   display: inline-block;
   cursor: pointer;
   text-align: center;
-  width: 100%;
+  width: 100vw;
 }
 
 .Contents .RaceTendencyTab ul span:hover {
@@ -28253,7 +28253,7 @@ table.Tendency_Data tr td div.Inner span[class^="Label"] {
 
 .Contents > .Table_Container .PickupHorseArea .RaceCommon_Table {
   min-width: auto;
-  width: 100%;
+  width: 100vw;
 }
 
 .PickupTendency table.PickupHorseTable01 th {
@@ -28595,7 +28595,7 @@ table.Tendency_Data tr td div.Inner span[class^="Label"] {
 }
 
 .Race_Data .Tendency_Data_Table table {
-  width: 100%;
+  width: 100vw;
 }
 
 .Race_Data .Tendency_Data_Table table td {
@@ -28635,7 +28635,7 @@ table.Tendency_Data tr td div.Inner span[class^="Label"] {
 }
 
 .Data_Table table {
-  width: 100%;
+  width: 100vw;
 }
 
 .Data_Table th {
@@ -28724,7 +28724,7 @@ table.Tendency_Data tr td div.Inner span[class^="Label"] {
 }
 
 .Race_Ranking_Data table {
-  width: 100%;
+  width: 100vw;
 }
 
 .Race_Ranking_Data tbody td {
@@ -28775,7 +28775,7 @@ table.Tendency_Data tr td div.Inner span[class^="Label"] {
 .Race_Ranking_Data .DataTable_Wrap .Not_data_trainer tr + tr td:nth-child(6),
 .Race_Ranking_Data .DataTable_Wrap .Not_data_trainer tr + tr td:nth-child(7) {
   color: transparent;
-  background: url("../img/race/course_ranking_sample_2.jpg") no-repeat 100% center;
+  background: url("../img/race/course_ranking_sample_2.jpg") no-repeat 100vw center;
 }
 
 .Race_Ranking_Data .DataTable_Wrap .Not_data_jockey tr + tr td:nth-child(8),
@@ -28794,7 +28794,7 @@ table.Tendency_Data tr td div.Inner span[class^="Label"] {
 .Race_Ranking_Data .DataTable_Wrap .Not_data_trainer tr + tr td:nth-child(11),
 .Race_Ranking_Data .DataTable_Wrap .Not_data_trainer tr + tr td:nth-child(12) {
   color: transparent;
-  background: url("../img/race/course_ranking_sample_3.jpg") no-repeat 100% center;
+  background: url("../img/race/course_ranking_sample_3.jpg") no-repeat 100vw center;
 }
 
 .Race_Ranking_Data .DataTable_Wrap .Premium_Regist_Box {
@@ -29214,7 +29214,7 @@ table.SpeedIndex_Table .sort {
   width: 14px;
   height: 14px;
   background: url(../img/race/sort.png) no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
   margin: 0 auto;
 }
 
@@ -29225,7 +29225,7 @@ table.SpeedIndex_Table .sort.desc {
 
 table.SpeedIndex_Table .asc {
   background: url(../img/race/sort_active.png) no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
 }
 
 .Sort_Function_Data_Hidden {
@@ -29514,7 +29514,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 
 .Type_Detail_Table {
   border-collapse: collapse;
-  width: 100%;
+  width: 100vw;
   background: #fff;
 }
 
@@ -29743,7 +29743,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 }
 
 .Input_Regist {
-  width: 100%;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29785,7 +29785,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 }
 
 .Regist_No_Login .btn_regist {
-  width: 100%;
+  width: 100vw;
 }
 
 .inner-text {
@@ -30086,7 +30086,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 .RaceSpecialArea .Icon_Specialty {
   background: url(../img/yoso_image.jpg) no-repeat;
   width: 23px;
-  background-size: 100%;
+  background-size: 100vw;
 }
 
 .RaceSpecialArea .Icon_Inline_M .Icon {
@@ -30269,7 +30269,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
   position: absolute;
   bottom: -11px;
   border-bottom: 2px solid #d86b5c;
-  width: 100%;
+  width: 100vw;
   left: 0;
 }
 
@@ -30316,7 +30316,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
   content: " ";
   display: block;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 10px;
   background: #f5f4f1;
 }
@@ -30325,8 +30325,8 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.67)), color-stop(40%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0));
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0));
@@ -30363,7 +30363,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 .RaceSpecialArea .Top_RaceMenu .Btn_List_01 li {
   float: left;
   width: 113px;
-  width: calc((100% - 20px) / 6);
+  width: calc((100vw - 20px) / 6);
   margin-right: 4px;
 }
 
@@ -30621,16 +30621,16 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
   background: url(../img/icon/Movie_SamImage.png);
   width: 50px;
   height: 50px;
-  background-size: 100%;
+  background-size: 100vw;
 }
 
 .RaceSpecialArea .SpecialVideoMain .DataVideo .VideoSampleThum img {
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceSpecialArea .ReferenceRace .VideoSampleThum a > img {
   display: block;
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceSpecialArea .SpecialScheduleArea .Tab01 {
@@ -30674,7 +30674,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 }
 
 .RaceSpecialArea .ScheduleBox table {
-  width: 100%;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -30716,7 +30716,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 
 .RaceSpecialArea .ScheduleBox span.Icon_More01 {
   padding: 14px 5px;
-  width: 100%;
+  width: 100vw;
   font-size: 14px;
 }
 
@@ -30771,7 +30771,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 
 .RaceSpecialArea .ReferenceRaceImage img,
 .RaceSpecialArea .ReferencePaddockImage img, .RaceSpecialArea .MovieSamImage img {
-  width: 100%;
+  width: 100vw;
   position: absolute;
   position: absolute;
   top: 50%;
@@ -30797,7 +30797,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 
 .RaceSpecialArea .PhotoPaddockListItem a img {
   display: block;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   position: absolute;
   top: 50%;
@@ -30820,7 +30820,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
   background: url(../img/icon/icon_photo_zoom01.png);
   width: 36px;
   height: 36px;
-  background-size: 100%;
+  background-size: 100vw;
 }
 
 .RaceSpecialArea .ReferenceRaceName {
@@ -31050,11 +31050,11 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 }
 
 .RaceSpecialArea .ShutubaArea .TraningMovie .Btn_TrainingMv img {
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceSpecialArea table.RaceTable {
-  width: 100%;
+  width: 100vw;
   font-weight: bold;
   font-size: 14px;
 }
@@ -31124,7 +31124,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 }
 
 .RaceSpecialArea .CourseRecordBox .CourseRecord {
-  width: 100%;
+  width: 100vw;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -31181,7 +31181,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 }
 
 .RaceSpecialArea .CourseImageArea .Course_Image img {
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceSpecialArea .CourseImageArea .AboutCouseTxt {
@@ -31204,7 +31204,7 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
 .RaceSpecialArea .ProYosoka_Box {
   position: relative;
   width: 353px;
-  height: 100%;
+  height: 100vw;
   padding: 10px;
 }
 
@@ -31343,8 +31343,8 @@ table.ShutubaTable_Ped tr.HorseList.Cancel .Waku11 {
   background-color: #fff;
   border: 2px solid #dfe0db;
   border-radius: 3px;
-  max-width: 100%;
-  width: 100%;
+  max-width: 100vw;
+  width: 100vw;
   line-height: 1;
   margin-top: 10px;
 }
@@ -31416,7 +31416,7 @@ p.ContentTxt01__umai {
 }
 
 .RaceSpecialArea .PickupContents .PickupBox01 .ContentsImg01 {
-  width: 100%;
+  width: 100vw;
   display: block;
 }
 
@@ -31521,7 +31521,7 @@ p.ContentTxt01__umai {
 }
 
 .RaceSpecialArea .PastResultsTable {
-  width: 100%;
+  width: 100vw;
   font-size: 15px;
   min-height: 84px;
   color: #666;
@@ -31569,7 +31569,7 @@ p.ContentTxt01__umai {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vw;
   min-height: 53px;
   border: 2px solid #e2e3de;
   border-radius: 4px;
@@ -31690,7 +31690,7 @@ p.ContentTxt01__umai {
   padding-top: 88%;
   position: relative;
   background: url(../img/premium_topvisual.jpg) no-repeat center center;
-  background-size: 100%;
+  background-size: 100vw;
   margin-top: 20px;
 }
 
@@ -31709,7 +31709,7 @@ p.ContentTxt01__umai {
 }
 
 .RaceSpecialArea .PremiumInfo01RegistBtn img {
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceSpecialArea .Premium_Guide_Lead {
@@ -31718,7 +31718,7 @@ p.ContentTxt01__umai {
 }
 
 .RaceSpecialArea .Premium_Guide_Lead img {
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceSpecialArea .ModalOverlay {
@@ -31888,8 +31888,8 @@ p.ContentTxt01__umai {
 
 .RaceSpecialArea .Sec_FavoriteYoso .Tab01 ul.Tab_Col3 li {
   width: 33.333%;
-  width: -webkit-calc(100% / 3);
-  width: calc(100% / 3);
+  width: -webkit-calc(100vw / 3);
+  width: calc(100vw / 3);
 }
 
 .RaceSpecialArea .Sec_FavoriteYoso .Tab01 ul.Tab_Col4 li {
@@ -31900,8 +31900,8 @@ p.ContentTxt01__umai {
   content: "";
   display: block;
   width: 33.333%;
-  width: -webkit-calc(100% / 3);
-  width: calc(100% / 3);
+  width: -webkit-calc(100vw / 3);
+  width: calc(100vw / 3);
 }
 
 .RaceSpecialArea .Sec_FavoriteYoso .Tab01 ul.Tab_Col4::after {
@@ -31970,7 +31970,7 @@ p.ContentTxt01__umai {
   border-collapse: collapse;
   margin: auto;
   margin-bottom: 22px;
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceSpecialArea .Result_TableBox01 table thead th {
@@ -32086,7 +32086,7 @@ p.ContentTxt01__umai {
 }
 
 .RaceSpecialArea .CourseImageArea2.hasKishuImg span.KishuImg img {
-  max-width: 100%;
+  max-width: 100vw;
 }
 
 .RaceSpecialArea .CourseImageArea2.hasKishuImg .Title_Sec:before {
@@ -32094,11 +32094,11 @@ p.ContentTxt01__umai {
 }
 
 .RaceSpecialArea .ResultTableWrap {
-  width: 100%;
+  width: 100vw;
 }
 
 .RaceSpecialArea .ResultFlash {
-  width: 100% !important;
+  width: 100vw !important;
 }
 
 .RaceSpecialArea .Result_Show_Btn {
@@ -32149,7 +32149,7 @@ p.ContentTxt01__umai {
 }
 
 .RaceSpecialArea table.ResultRefund .Result_Slim > p {
-  max-width: 100%;
+  max-width: 100vw;
 }
 
 .RaceSpecialArea .Senmonshi_Box {
@@ -32160,7 +32160,7 @@ p.ContentTxt01__umai {
   width: 32px;
   height: 29px;
   background: url(../img/icon/icon_senmonshi_01.png) no-repeat center center;
-  background-size: 100%;
+  background-size: 100vw;
 }
 
 
@@ -32189,8 +32189,8 @@ p.ContentTxt01__umai {
 .PhotoContainer {
   display: table;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
 }
 
 .PhotoInner {
@@ -32203,7 +32203,7 @@ p.ContentTxt01__umai {
   position: relative;
   margin: 0 auto;
   padding: 16px;
-  width: 100%;
+  width: 100vw;
   max-width: 500px;
   text-align: justify;
   text-justify: inter-ideograph;
@@ -32226,7 +32226,7 @@ p.ContentTxt01__umai {
 }
 
 .PhotoPaddockModal .MainImage img {
-  width: 100%;
+  width: 100vw;
 }
 
 .PhotoPaddockModal h3 {
@@ -32314,7 +32314,7 @@ p.ContentTxt01__umai {
   display: block;
   margin: -2px -5px 0;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100vw auto;
 }
 
 .PhotoPaddockModal .SampleTxtMask02:before,
@@ -32427,7 +32427,7 @@ p.ContentTxt01__umai {
 .PhotoPaddockModal .Trainer .Icon_RaceInfo.Icon_Mark_Sample {
   background-image: url("../img/race/Trecen_SampleImage_Mark01.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100vw 100vw;
 }
 
 .PhotoPaddockModal .Trainer .mark {
@@ -32456,7 +32456,7 @@ p.ContentTxt01__umai {
 }
 
 .PremiumRegist_Sample img {
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
 
@@ -32685,7 +32685,7 @@ ul.CustomMenuList02 li .MenuListItem .SortHandle > span.BottomBar {
   cursor: pointer;
   text-align: center;
   display: block;
-  width: 100%;
+  width: 100vw;
   font-size: 15px;
   padding: 8px 11px;
   font-weight: bold;
@@ -32781,7 +32781,7 @@ li .MenuListItem .YosokaImage {
 
 li .MenuListItem .YosokaImage img {
   display: block;
-  width: 100%;
+  width: 100vw;
 }
 
 li .MenuListItem .YosokaTxtArea {
@@ -32925,7 +32925,7 @@ li .MenuListItem .YosokaTxtArea span.YosokaTxt01 + span.YosokaTxt02 {
   padding: 0 10px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.64);
-  max-width: calc(100% - 20px);
+  max-width: calc(100vw - 20px);
   overflow-wrap: break-word;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -33038,7 +33038,7 @@ li .MenuListItem .YosokaTxtArea span.YosokaTxt01 + span.YosokaTxt02 {
   display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 100%;
+  width: 100vw;
   border: 1px solid rgba(0, 0, 0, 0.14);
   padding: 10px 13px;
   border-radius: 2px;
@@ -33101,7 +33101,7 @@ li .MenuListItem .YosokaTxtArea span.YosokaTxt01 + span.YosokaTxt02 {
 ul.CustomMenuList01 li .MenuListItem a.MenuLink01 {
   position: relative;
   display: block;
-  width: 100%;
+  width: 100vw;
 }
 
 ul.CustomMenuList01 li .MenuListItem a.MenuLink01:after {
@@ -33219,7 +33219,7 @@ ul.CustomMenuList02 li.ui-sortable-helper {
 
 .Tab02 ul {
   display: table;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid #dcdcdc;
 }
 
@@ -33233,7 +33233,7 @@ ul.CustomMenuList02 li.ui-sortable-helper {
 .Tab02 ul li span.No_Link {
   color: #666;
   display: block;
-  width: 100%;
+  width: 100vw;
   font-size: 77.78%;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -33249,7 +33249,7 @@ ul.CustomMenuList02 li.ui-sortable-helper {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 4px;
   background-color: #3251bc;
 }
@@ -33257,7 +33257,7 @@ ul.CustomMenuList02 li.ui-sortable-helper {
 /*-- サブタブ --*/
 ul.SubTab {
   display: table;
-  width: 100%;
+  width: 100vw;
   padding: 20px 0 0;
   table-layout: fixed;
 }
@@ -33282,7 +33282,7 @@ ul.SubTab li a {
   padding: 9px 0 10px;
   color: #444444;
   font-size: 14px;
-  height: 100%;
+  height: 100vw;
   background-color: #E2E0DA;
 }
 
@@ -33417,7 +33417,7 @@ span.FavMark01 {
   margin: 2px 8px;
   vertical-align: top;
   font-size: 0;
-  text-indent: 100%;
+  text-indent: 100vw;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -33427,7 +33427,7 @@ span.FavMark01 {
   position: absolute;
   top: 0;
   left: 110%;
-  width: 100%;
+  width: 100vw;
   background: #fff;
   -webkit-transition: all .2s linear;
   -ms-transition: all .2s linear;
@@ -33491,7 +33491,7 @@ span.FavMark01 {
   75% {
     opacity: 0;
   }
-  100% {
+  100vw {
     opacity: 1;
   }
 }
@@ -33500,7 +33500,7 @@ span.FavMark01 {
   75% {
     opacity: 0;
   }
-  100% {
+  100vw {
     opacity: 1;
   }
 }
@@ -34314,7 +34314,7 @@ footer .Nk_Sns ul li {
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #dadada;
   display: table;
-  width: 100%;
+  width: 100vw;
 }
 
 .UmaibakenLinkArea .MyPonitBox_Item01,
@@ -34422,7 +34422,7 @@ footer .Nk_Sns ul li {
   content: "";
   width: 150px;
   border-right: 1px solid #B8B5AB;
-  height: 100%;
+  height: 100vw;
   left: 0;
   top: 0;
   background-color: #F2F0E9;
@@ -34512,7 +34512,7 @@ footer .Nk_Sns ul li {
 }
 
 .race_expect .DeployRace_Slide {
-  width: calc(100% + 2px);
+  width: calc(100vw + 2px);
   vertical-align: baseline;
   line-height: 1.0em;
   text-shadow: none;
@@ -34539,7 +34539,7 @@ footer .Nk_Sns ul li {
   padding: 11px 0;
   background: #EDEBE5;
   border-bottom: 1px solid #d9d8ce;
-  width: 100%;
+  width: 100vw;
 }
 
 .race_expect .DeployRace_SlideBoxItem dd {
@@ -34548,8 +34548,8 @@ footer .Nk_Sns ul li {
 }
 
 .race_expect .DeployRace_SlideBoxItem dl {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
   border: 1px solid #cacaca;
 }
 
@@ -34797,7 +34797,7 @@ dl.RacePace dd.Pace_H {
   width: 32px;
   height: 29px;
   background: url(../img/icon/icon_senmonshi_01.png) no-repeat center center;
-  background-size: 100%;
+  background-size: 100vw;
 }
 .Race_Senmonshi_Box .TitleHeading span{
   padding-left: 46px;
@@ -34831,7 +34831,7 @@ dl.RacePace dd.Pace_H {
   width: 32px;
   height: 29px;
   background: url(../img/icon/icon_senmonshi_01.png) no-repeat center center;
-  background-size: 100%;
+  background-size: 100vw;
 }
 
 .icon_netkeiba{
@@ -34911,7 +34911,7 @@ body.page_race_special em.Subtitle::before {
 }
 .SenmonshiListWrap01 img,
 .TopSenmonshiList img {
-  width: 100%;
+  width: 100vw;
   height: auto;
   border-radius: 5px;
 }
@@ -34961,7 +34961,7 @@ body.page_race_special em.Subtitle::before {
 
 .SenmonshiListWrap01 .StateBtn.State1 {
   padding: 18px 0;
-  max-width: 100%;
+  max-width: 100vw;
   margin-top: 12px;
   background: #fff;
   color: #3251bc;
@@ -35054,10 +35054,10 @@ body.page_race_special em.Subtitle::before {
 .Side_Column .RaceMenu .RaceMenuPanel .ListRaceMenu .RaceMenuItem a .Icon_Specialty {
   background: url(../img/yoso_image.jpg) no-repeat;
   width: 23px;
-  background-size: 100%;
+  background-size: 100vw;
 }
 .banner_top img {
-  width: 100%;
+  width: 100vw;
 }
 .Senmonshi_Box {
   margin-bottom: 22px;
@@ -35096,7 +35096,7 @@ body.page_race_special em.Subtitle::before {
   background: #ef5350;
   border: 1px solid #ef5350;
   width: 18px;
-  border-radius: 100%;
+  border-radius: 100vw;
   top: -6px;
   right: -6px;
   position: absolute;
@@ -35220,7 +35220,7 @@ body.page_race_special em.Subtitle::before {
     width: 22px;
     height: 20px;
     background-image: url("../img/icon/icon_alert01.png");
-    background-size: 100%;
+    background-size: 100vw;
     vertical-align: middle;
     margin-right: 10px;
 }
@@ -35334,4 +35334,3 @@ body.page_race_special em.Subtitle::before {
 .Past10year .Payback > table th.Tan3 {
 	background: #e4813e;
 }
-
